@@ -2,11 +2,7 @@
 
 - data.csv
 
-trip_id(0),usertype(1),gender(2),starttime(3),stoptime(4),tripduration(5),from_station_id(6)
-,from_station_name(7),latitude_start(8),longitude_start(9),dpcapacity_start(10),
-to_station_id(11),to_station_name(12),latitude_end(13),longitude_end(14),dpcapacity_end(15),
-temperature(16),windchill(17),dewpoint(18),humidity(19),pressure(20),visibility,wind_speed,
-precipitation,events,rain,conditions
+trip_id,year,month,week,day,hour,usertype,gender,starttime,stoptime,tripduration,temperature,events,from_station_id,from_station_name,latitude_start,longitude_start,dpcapacity_start,to_station_id,to_station_name,latitude_end,longitude_end,dpcapacity_end
 
 
 
