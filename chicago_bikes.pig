@@ -17,11 +17,16 @@ to_total_traffic_count = DISTINCT to_total_traffic_count;
 to_total_traffic_count = FOREACH to_total_traffic_count GENERATE $0, $1, MIN($2);
 order_to_total_traffic_count = ORDER to_total_traffic_count BY count DESC;
 
--- Output files
 */
 
+
+/* promedio por dia
+raw_group_per_day = GROUP raw BY day; -- (day, {...})
+raw_avg_per_day = FOREACH raw_group_per_day GENERATE $0, AVG(raw.tripduration);
+*/
+
+-- Output files
 STORE order_from_total_traffic_count INTO '/uhadoop2020/group12/bici/from_total_traffic';
 -- STORE order_to_total_traffic_count INTO '/uhadoop2020/group12/bici/to_total_traffic';
--- STORE ordered_actress_count INTO '/uhadoop2020/group12/imdb-costars/female';
-
+STORE raw_avg_per_day INTO '/uhadoop2020/group12/bici/time_avg';
 
