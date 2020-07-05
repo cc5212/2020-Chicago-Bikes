@@ -19,15 +19,23 @@ Querys hechas:
 El formato de entrega de ambos es "COUNT \t id_station \t name_station". Es importante notar que un id puede estar mas 
 de una vez en la lista, esto se debe a que la estación puede tener más de un nombre (en caso de esto ser un problema, se
 puede solucionar simplemente eligiendo el primer nombre arbitrariamente).
+- Query para ver lugar donde se retiran mas bicicletas
+- Query para ver lugar donde se depositan mas bicicletas
+- Tiempo promedio de viaje por día y por dia###mes
+- Tiempo promedio de viaje por dia###mes
+- Cantidad de viajes por dia###mes
+- Cantidad de viajes por hora
+- Cantidad de viajes por mes
+- Comparación entre hombres y mujeres para cantidad de viajes por hora
+- Comparación entre día hábil (lunes-viernes) y fin de semana (sábado-domingo) para cantidad de viajes en promedio
+Se muestra un formato similar para mostrar los datos resultantes, mostrando en primer lugar las Horas, Días, Mes, etc en la primera columna, y luego sus datos respectivos.
 
 
 to do:
-- Hacer query x mes.
-- Hacer query x dia. -> puede ser [Lunes -> Domingo] o [1 -> 365 dias]
-- Hacer query x hora
-- Hacer query x horario 
+- Hacer query x horario
 - Hacer query x horario de trabajo -> asumir que se va a trabajar entre 8-9 y se regresa entre 5-6
 - Tiempo promedio del uso de las bicicletas
+## - PENSAR OTRAS (?)
 
 IDEAS PARA MOSTRAR
 - Horarios: las partes del día se dividen en Mañana: de 6 a 12, Tarde: de 12 a 19
