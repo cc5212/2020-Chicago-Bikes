@@ -79,7 +79,7 @@ raw_group_per_hour_men_vs_women = JOIN raw_group_per_hour_men BY $0 , raw_group_
 raw_group_per_hour_men_vs_women = FOREACH raw_group_per_hour_men_vs_women GENERATE $0, $1 ,$3;
   */
 
-
+/*
 -- por hora dia habil
 dia_habil = FILTER raw BY (int)day < 5;
 raw_group_per_hour_dia_habil = GROUP dia_habil BY hour;
@@ -96,14 +96,42 @@ raw_group_per_hour_fin_de_semana = ORDER raw_group_per_hour_fin_de_semana BY $0 
 hora_dia_habil_vs_fin_de_semana = JOIN  raw_group_per_hour_dia_habil BY $0 , raw_group_per_hour_fin_de_semana BY $0 ;
 hora_dia_habil_vs_fin_de_semana = FOREACH hora_dia_habil_vs_fin_de_semana GENERATE (int)$0 , (int)$1/5 , (int)$3/2 ;
 hora_dia_habil_vs_fin_de_semana = ORDER hora_dia_habil_vs_fin_de_semana BY $0 ;
+*/
 
+
+/* 
+-- query x horario
+
+*/
+
+-- query x horario de trabajo duracion promedio viajes
+dia_habil = FILTER raw BY (int)day < 5;
+
+viaje_ida = FILTER raw BY day matches '[8]';--'\b8\b|\b9\b';
+viaje_vuelta = FILTER raw BY day matches '[17]*'; --'\b17\b|\b18\b';
+
+promedio_viaje_ida = FOREACH viaje_ida GENERATE 'viaje ida' , tripduration as duration;
+promedio_viaje_vuelta = FOREACH viaje_vuelta GENERATE 'viaje vuelta' ,tripduration as duration;
+
+promedio_viaje_ida = GROUP promedio_viaje_ida BY $0;
+promedio_viaje_vuelta = GROUP promedio_viaje_vuelta BY $0;
+
+promedio_viaje_ida = FOREACH promedio_viaje_ida GENERATE $0, AVG($1.duration);
+promedio_viaje_vuelta = FOREACH promedio_viaje_vuelta GENERATE $0, AVG($1.duration);
+
+promedio_viajes = JOIN  promedio_viaje_ida BY $0 FULL OUTER, promedio_viaje_vuelta BY $0;
+
+/*Tiempo promedio del uso de las bicicletas
+
+*/
 
 
 -- todate_data = FOREACH raw GENERATE ToDate(starttime,'yyyy-MM-dd HH:mm:ss','America/Chicago') as (date_time:datetime), tripduration, temperature, events, gender;
 -- Output files
-STORE hora_dia_habil_vs_fin_de_semana INTO '/uhadoop2020/group12/bici/hora_dia_habil_vs_fin_de_semana';
+STORE promedio_viajes INTO '/uhadoop2020/group12/bici/duracion_viaje_trabajo_ida_vs_vuelta';
 
 /*
+STORE comparacion_duracion_viaje_trabajo_ida_vs_vuelta INTO '/uhadoop2020/group12/bici/duracion_viaje_trabajo_ida_vs_vuelta';
 STORE hora_dia_habil_vs_fin_de_semana INTO '/uhadoop2020/group12/bici/hora_dia_habil_vs_fin_de_semana';
 STORE raw_group_per_hour_dia_habil INTO '/uhadoop2020/group12/bici/cantidad_viajes_por_hora_dia_habil';
 STORE raw_group_per_hour_men_vs_women INTO '/uhadoop2020/group12/bici/cantidad_viajes_por_hora_comparacion';
