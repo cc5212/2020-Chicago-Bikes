@@ -105,10 +105,13 @@ hora_dia_habil_vs_fin_de_semana = ORDER hora_dia_habil_vs_fin_de_semana BY $0 ;
 */
 
 -- query x horario de trabajo duracion promedio viajes
+-- SELECT AVG(tripduration) as ida from data WHERE (hour == '8' OR hour == '9') AND CAST(day as int)<5;
+-- SELECT AVG(tripduration) as vuelta from data WHERE (hour == '17' OR hour == '18')AND CAST(day as int)<5;
+
 dia_habil = FILTER raw BY (int)day < 5;
 
-viaje_ida = FILTER raw BY day matches '[8]';--'\b8\b|\b9\b';
-viaje_vuelta = FILTER raw BY day matches '[17]*'; --'\b17\b|\b18\b';
+viaje_ida = FILTER dia_habil BY (int)hour >=8 AND (int)hour <= 9;
+viaje_vuelta = FILTER dia_habil BY  (int)hour >=17 AND (int)hour <= 18;
 
 promedio_viaje_ida = FOREACH viaje_ida GENERATE 'viaje ida' , tripduration as duration;
 promedio_viaje_vuelta = FOREACH viaje_vuelta GENERATE 'viaje vuelta' ,tripduration as duration;
