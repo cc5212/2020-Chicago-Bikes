@@ -2,3 +2,4 @@ data.csv
 .import
 data.db
 .vscode/settings.json
+-- SQLite.sql
