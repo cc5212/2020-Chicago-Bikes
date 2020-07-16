@@ -119,13 +119,35 @@ promedio_viaje_vuelta = FOREACH promedio_viaje_vuelta GENERATE $0, AVG($1.durati
 
 promedio_viajes = JOIN  promedio_viaje_ida BY $0 FULL OUTER, promedio_viaje_vuelta BY $0;
 
+/*
+-- se comparara solo dia de semana (no trabajo vs trabajo)
+id_day_hour = FOREACH raw GENERATE tripduration, day, (
+                CASE
+                    WHEN (int)hour >= 0 AND (int)hour < 6  THEN 'Madrugada'
+                    WHEN (int)hour >= 6 AND (int)hour < 12  THEN 'Manana'
+                    WHEN (int)hour >= 12 AND (int)hour < 19  THEN 'Tarde'
+                    WHEN (int)hour >= 19  THEN 'Noche'
+                    END
+                    ) as horario;
+
+id_day_hour = FOREACH id_day_hour GENERATE CONCAT((chararray)day,'###',(chararray)horario) as datet, tripduration as duration;
+id_day_hour = GROUP id_day_hour BY $0;
+id_day_hour_count = FOREACH id_day_hour GENERATE $0, COUNT($1.duration);
+id_day_hour_avg = FOREACH id_day_hour GENERATE $0, AVG($1.duration);
+id_day_hour_count = ORDER id_day_hour_count BY $1;
+id_day_hour_avg = ORDER id_day_hour_avg BY $1;
+
+*/
+
+
 /* Tiempo promedio del uso de las bicicletas
 
 */
 
 
 /* Output files (en orden)
-
+STORE id_day_hour_count INTO '/uhadoop2020/group12/bici/day_hour_count';
+STORE id_day_hour_avg INTO '/uhadoop2020/group12/bici/day_hour_avg';
 STORE order_from_total_traffic_count INTO '/uhadoop2020/group12/bici/from_total_traffic';
 STORE order_to_total_traffic_count INTO '/uhadoop2020/group12/bici/to_total_traffic';
 STORE raw_avg_per_day INTO '/uhadoop2020/group12/bici/time_avg';
