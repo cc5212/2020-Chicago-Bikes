@@ -1892,7 +1892,7 @@
 
 ## to_total_traffic
 
-| wo | lo | lo |
+| Total Depósito bicicletas | station_id | name_station |
 |-------|-------|----------------------------------------|
 | 161152|  91   |   Clinton St & Washington Blvd         |
 | 139654|  192  |   Canal St & Adams St                  |
