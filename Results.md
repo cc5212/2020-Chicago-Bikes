@@ -1,7 +1,7 @@
 
 ## duracion_viaje_trabajo_ida_vs_vuelta
 
-| wo | lo |
+| dia##mes | tiempo |
 |--------|-------|
 | 22###9 | 47238 |
 | 15###9 | 47196 |
@@ -372,7 +372,7 @@
 
 ## bici/hora_dia_habil_vs_fin_de_semana
 
-| wo | lo | lo|
+| Hora | lo | lo|
 |-------|---------|-------|
 | 0     |  6541   | 14482 |
 | 1     |  3236   | 10242 |
@@ -401,7 +401,7 @@
 
 ## cantidad_viajes_por_hora_dia_habil
 
-| wo | lo |
+| Hora | Cantidad de viajes |
 |-------|----------|
 | 17    |  1071491 |
 | 8     |  824371  |
@@ -461,7 +461,7 @@
 
 ## cantidad_viajes_por_hora
 
-| wo | lo |
+| Hora | Cantidad de Viajes |
 |------|-----------|
 | 17   |   1211414 |
 | 8    |   888959  |
@@ -490,7 +490,7 @@
 
 ## cantidad_viajes_dia_mes
 
-| wo | lo |
+| Dia##mes | Cantidad de viajes |
 |-------- |-------|
 | 22###9  | 47238 |
 | 15###9  | 47196 |
@@ -861,7 +861,7 @@
 
 ## time_avg_dm2
 
-| wo | lo |
+| Dia##mes | Promedio Tiempo de viaje |
 |-------- |--------------------|
 | 4###7   | 14.139241747467064 |
 | 29###5  | 13.083072167988275 |
@@ -1231,8 +1231,1403 @@
 | 9###2   | 9.23035833148436   |
 
 ## from_total_traffic
+| wo | lo | lo |
+|--------|--------|--------------------------------------|
+| 164669 | 91     | Clinton St & Washington Blvd         |
+| 140197 | 192    | Canal St & Adams St                  |
+| 122229 | 77     | Clinton St & Madison St              |
+| 121728 | 174    | Canal St & Madison St                |
+| 98262  | 287    | Franklin St & Monroe St              |
+| 98262  | 287    | Franklin St & Arcade Pl              |
+| 87577  | 195    | Columbus Dr & Randolph St            |
+| 85829  | 75     | Clinton St & Jackson Blvd            |
+| 85829  | 75     | Canal St & Jackson Blvd              |
+| 80139  | 81     | Daley Center Plaza                   |
+| 79267  | 133    | Kingsbury St & Kinzie St             |
+| 77547  | 283    | LaSalle St & Jackson Blvd            |
+| 75224  | 49     | Dearborn St & Monroe St              |
+| 72823  | 66     | Clinton St & Lake St                 |
+| 72499  | 177    | Theater on the Lake                  |
+| 70911  | 43     | Michigan Ave & Washington St         |
+| 70254  | 100    | Orleans St & Merchandise Mart Plaza  |
+| 69345  | 110    | Dearborn St & Erie St                |
+| 69345  | 110    | State St & Erie St                   |
+| 69192  | 176    | Clark St & Elm St                    |
+| 66622  | 289    | Wells St & Concord Pl                |
+| 66622  | 289    | Wells St & Concord Ln                |
+| 66024  | 48     | Larrabee St & Kingsbury St           |
+| 65627  | 36     | Franklin St & Jackson Blvd           |
+| 64109  | 74     | Kingsbury St & Erie St               |
+| 62621  | 56     | Desplaines St & Kinzie St            |
+| 61289  | 181    | LaSalle St & Illinois St             |
+| 60893  | 35     | Streeter Dr & Illinois St            |
+| 60893  | 35     | Streeter Dr & Grand Ave              |
+| 60783  | 52     | Michigan Ave & Lake St               |
+| 60178  | 191    | Canal St & Monroe St                 |
+| 60178  | 191    | Canal St & Monroe St (*)             |
+| 60113  | 268    | Lake Shore Dr & North Blvd           |
+| 59151  | 59     | Wabash Ave & Roosevelt Rd            |
+| 57433  | 199    | Wabash Ave & Grand Ave               |
+| 56604  | 117    | Wilton Ave & Belmont Ave             |
+| 56213  | 47     | State St & Kinzie St                 |
+| 55119  | 211    | St. Clair St & Erie St               |
+| 55119  | 211    | St Clair St & Erie St                |
+| 54681  | 85     | Michigan Ave & Oak St                |
+| 54180  | 69     | Damen Ave & Pierce Ave               |
+| 53688  | 26     | McClurg Ct & Illinois St             |
+| 52274  | 140    | Dearborn Pkwy & Delaware Pl          |
+| 51747  | 31     | Franklin St & Chicago Ave            |
+| 51560  | 37     | Dearborn St & Adams St               |
+| 51465  | 94     | Clark St & Armitage Ave              |
+| 51368  | 212    | Wells St & Hubbard St                |
+| 51368  | 212    | Orleans St & Ohio St                 |
+| 51175  | 286    | Franklin St & Quincy St              |
+| 51123  | 134    | Peoria St & Jackson Blvd             |
+| 50648  | 58     | Marshfield Ave & Cortland St         |
+| 50405  | 51     | Clark St & Randolph St               |
+| 49245  | 255    | Indiana Ave & Roosevelt Rd           |
+| 49193  | 53     | LaSalle (Wells) St & Huron St        |
+| 49193  | 53     | Wells St & Huron St                  |
+| 49193  | 53     | Wells St & Erie St                   |
+| 48993  | 24     | Fairbanks Ct & Grand Ave             |
+| 48836  | 164    | Franklin St & Lake St                |
+| 48673  | 98     | LaSalle St & Washington St           |
+| 48426  | 67     | Sheffield Ave & Fullerton Ave        |
+| 48332  | 44     | State St & Randolph St               |
+| 48072  | 141    | Clark St & Lincoln Ave               |
+| 44891  | 198    | Green St (Halsted St) & Madison St   |
+| 44891  | 198    | Halsted St & Madison St              |
+| 44891  | 198    | Green St & Madison St                |
+| 44239  | 340    | Clark St & Wrightwood Ave            |
+| 44066  | 240    | Sheridan Rd & Irving Park Rd         |
+| 43851  | 90     | Millennium Park                      |
+| 42823  | 210    | Ashland Ave & Division St            |
+| 42261  | 71     | Morgan St & Lake St                  |
+| 42243  | 301    | Clark St & Schiller St               |
+| 41848  | 50     | Clark St & Congress Pkwy             |
+| 41119  | 344    | Wolcott Ave & Lawrence Ave           |
+| 41119  | 344    | Ravenswood Ave & Lawrence Ave        |
+| 40502  | 115    | Sheffield Ave & Wellington Ave       |
+| 40060  | 33     | State St & Van Buren St              |
+| 38878  | 291    | Wells St & Evergreen Ave             |
+| 38757  | 241    | Morgan St & Polk St                  |
+| 38706  | 13     | Wilton Ave & Diversey Pkwy           |
+| 38650  | 76     | Lake Shore Dr & Monroe St            |
+| 38560  | 300    | Broadway & Barry Ave                 |
+| 38478  | 220    | Hampden Ct & Diversey Pkwy           |
+| 38276  | 153    | Southport Ave & Wellington Ave       |
+| 37782  | 73     | Jefferson St & Monroe St             |
+| 37758  | 156    | Clark St & Wellington Ave            |
+| 37592  | 18     | Wacker Dr & Washington St            |
+| 37490  | 173    | Mies van der Rohe Way & Chicago Ave  |
+| 37452  | 264    | Stetson Ave & South Water St         |
+| 37352  | 284    | Michigan Ave & Jackson Blvd          |
+| 36214  | 112    | Green St & Randolph St               |
+| 36115  | 118    | Sedgwick St & North Ave              |
+| 36087  | 144    | Larrabee St & Webster Ave            |
+| 35758  | 80     | Aberdeen St & Monroe St (Madison St) |
+| 35758  | 80     | Aberdeen St & Madison St             |
+| 35758  | 80     | Aberdeen St & Monroe St              |
+| 35750  | 38     | Clark St & Lake St                   |
+| 35712  | 229    | Southport Ave & Roscoe St            |
+| 35389  | 113    | Bissell St & Armitage Ave            |
+| 35089  | 114    | Sheffield Ave & Waveland Ave         |
+| 35089  | 114    | Sheffield Ave & Addison St           |
+| 34876  | 143    | Sedgwick St & Webster Ave            |
+| 34525  | 313    | Lakeview Ave & Fullerton Pkwy        |
+| 34448  | 331    | Halsted St & Blackhawk St            |
+| 34448  | 331    | Halsted St & Blackhawk St (*)        |
+| 33921  | 99     | Lake Shore Dr & Ohio St              |
+| 33825  | 61     | Wood St & Milwaukee Ave              |
+| 33663  | 254    | Pine Grove Ave & Irving Park Rd      |
+| 33364  | 106    | State St & Pearson St                |
+| 33191  | 60     | Dayton St & North Ave                |
+| 33062  | 321    | Wabash Ave & 9th St                  |
+| 33062  | 321    | Wabash Ave & 8th St                  |
+| 33007  | 130    | Damen Ave & Division St              |
+| 32998  | 334    | Lake Shore Dr & Belmont Ave          |
+| 32767  | 128    | Damen Ave & Chicago Ave              |
+| 32733  | 303    | Broadway & Cornelia Ave              |
+| 31904  | 111    | Sedgwick St & Huron St               |
+| 31848  | 232    | Pine Grove Ave & Waveland Ave        |
+| 31781  | 142    | McClurg Ct & Erie St                 |
+| 31658  | 337    | Clark St & Chicago Ave               |
+| 31623  | 327    | Sheffield Ave & Webster Ave          |
+| 31580  | 84     | Milwaukee Ave & Grand Ave            |
+| 31580  | 84     | Green St & Milwaukee Ave             |
+| 31580  | 84     | Union Ave & Grand Ave                |
+| 31462  | 349    | Halsted St & Wrightwood Ave          |
+| 31273  | 21     | Aberdeen St & Jackson Blvd           |
+| 31208  | 299    | Halsted St & Roscoe St               |
+| 31051  | 227    | Southport Ave & Waveland Ave         |
+| 30788  | 20     | Sheffield Ave & Kingsbury St         |
+| 29859  | 175    | Wells St & Polk St                   |
+| 29821  | 196    | Cityfront Plaza Dr & Pioneer Ct      |
+| 29821  | 196    | Cityfront Plaza & N Water St         |
+| 29707  | 197    | Michigan Ave & Madison St            |
+| 29675  | 233    | Sangamon St & Washington Blvd        |
+| 29675  | 233    | Sangamon St & Washington Blvd (*)    |
+| 29563  | 41     | Federal St & Polk St                 |
+| 29547  | 296    | Broadway & Belmont Ave               |
+| 29474  | 230    | Lincoln Ave & Roscoe St              |
+| 29306  | 304    | Halsted St & Waveland Ave            |
+| 29306  | 304    | Broadway & Waveland Ave              |
+| 29108  | 157    | Lake Shore Dr & Wellington Ave       |
+| 29088  | 127    | Lincoln Ave & Fullerton Ave          |
+| 28060  | 273    | Michigan Ave & 18th St               |
+| 28060  | 273    | Michigan Ave & 16th St               |
+| 27857  | 194    | State St & Wacker Dr                 |
+| 27857  | 194    | Wabash Ave & Wacker Pl               |
+| 27481  | 320    | Loomis St & Lexington St             |
+| 27439  | 123    | California Ave & Milwaukee Ave       |
+| 27257  | 332    | Halsted St & Diversey Pkwy           |
+| 27143  | 93     | Sheffield Ave & Willow St            |
+| 27127  | 346    | Ada St & Washington Blvd             |
+| 27054  | 217    | Racine Ave (May St) & Fulton St      |
+| 27054  | 217    | May St & Fulton St                   |
+| 26903  | 342    | Wolcott Ave & Polk St                |
+| 26866  | 225    | Halsted St & Dickens Ave             |
+| 26772  | 46     | Wells St & Walton St                 |
+| 26558  | 89     | Financial Pl & Congress Pkwy         |
+| 26508  | 152    | Lincoln Ave & Diversey Pkwy          |
+| 26416  | 182    | Wells St & Elm St                    |
+| 26370  | 108    | Halsted St & Polk St                 |
+| 25779  | 29     | Noble St & Milwaukee Ave             |
+| 25771  | 54     | Ogden Ave & Chicago Ave              |
+| 25727  | 260    | Kedzie Ave & Milwaukee Ave           |
+| 25468  | 223    | Clifton Ave & Armitage Ave           |
+| 25347  | 219    | Damen Ave & Cortland St              |
+| 25166  | 72     | Wabash Ave (State St) & 16th St      |
+| 25166  | 72     | Wabash Ave & 16th St                 |
+| 25166  | 72     | State St & 16th St                   |
+| 25033  | 125    | Rush St & Hubbard St                 |
+| 24835  | 231    | Sheridan Rd & Montrose Ave           |
+| 24721  | 39     | Wabash Ave & Adams St                |
+| 24711  | 161    | Rush St & Superior St                |
+| 24636  | 302    | Sheffield Ave & Wrightwood Ave       |
+| 24602  | 145    | Mies van der Rohe Way & Chestnut St  |
+| 24598  | 190    | Southport Ave & Wrightwood Ave       |
+| 24537  | 19     | Loomis St & Taylor St (*)            |
+| 24537  | 19     | Loomis St & Taylor St                |
+| 24379  | 25     | Michigan Ave & Pearson St            |
+| 24357  | 226    | Racine Ave & Belmont Ave             |
+| 24232  | 40     | LaSalle St & Adams St                |
+| 24064  | 126    | Clark St & North Ave                 |
+| 24006  | 107    | Desplaines St & Jackson Blvd         |
+| 23910  | 183    | Damen Ave & Augusta Blvd             |
+| 23719  | 168    | Michigan Ave & 14th St               |
+| 23617  | 22     | May St & Taylor St                   |
+| 23614  | 68     | Clinton St & Tilden St               |
+| 23364  | 329    | Lake Shore Dr & Diversey Pkwy        |
+| 22997  | 96     | Desplaines St & Randolph St          |
+| 22825  | 116    | Western Ave & Winnebago Ave          |
+| 22787  | 87     | Racine Ave & Fullerton Ave           |
+| 22653  | 57     | Clinton St & Roosevelt Rd            |
+| 22639  | 312    | Clarendon Ave & Gordon Ter           |
+| 22514  | 5      | State St & Harrison St               |
+| 22389  | 158    | Milwaukee Ave & Wabansia Ave         |
+| 22177  | 338    | Calumet Ave & 18th St                |
+| 21803  | 325    | Clark St & Winnemac Ave              |
+| 21648  | 16     | Paulina Ave & North Ave              |
+| 21648  | 16     | Paulina  Ave (Wood St) & North Ave   |
+| 21648  | 16     | Wood St & North Ave                  |
+| 21465  | 307    | Southport Ave & Clybourn Ave         |
+| 21408  | 17     | Honore St & Division St              |
+| 21408  | 17     | Wood St & Division St                |
+| 21225  | 186    | Ogden Ave & Race Ave                 |
+| 20954  | 359    | Larrabee St & Division St            |
+| 20845  | 350    | Ashland Ave & Chicago Ave            |
+| 20747  | 249    | Montrose Harbor                      |
+| 20736  | 4      | Burnham Harbor                       |
+| 20645  | 88     | May St & Randolph St                 |
+| 20645  | 88     | Racine Ave & Randolph St             |
+| 20463  | 172    | Rush St & Cedar St                   |
+| 20355  | 224    | Halsted St & Willow St               |
+| 20202  | 364    | Larrabee St & Oak St                 |
+| 20084  | 282    | Halsted St & Maxwell St              |
+| 19913  | 288    | Larrabee St & Armitage Ave           |
+| 19870  | 423    | University Ave & 57th St             |
+| 19786  | 165    | Clark St & Waveland Ave              |
+| 19786  | 165    | Clark St & Grace St                  |
+| 19707  | 138    | Clybourn Ave & Division St           |
+| 19703  | 131    | Lincoln Ave & Belmont Ave            |
+| 19700  | 7      | Field Blvd & South Water St          |
+| 19406  | 333    | Ashland Ave & Blackhawk St           |
+| 19328  | 92     | Carpenter St & Huron St              |
+| 19127  | 317    | Wood St & Taylor St                  |
+| 18974  | 45     | Michigan Ave & Congress Pkwy         |
+| 18932  | 256    | Broadway & Sheridan Rd               |
+| 18892  | 86     | Eckhart Park                         |
+| 18841  | 324    | Stockton Dr & Wrightwood Ave         |
+| 18546  | 28     | Larrabee St & Menomonee St           |
+| 18543  | 318    | Southport Ave & Irving Park Rd       |
+| 18431  | 261    | Hermitage Ave & Polk St              |
+| 18335  | 306    | Sheridan Rd & Buena Ave              |
+| 18240  | 237    | Martin Luther King Dr & 29th St      |
+| 18240  | 237    | MLK Jr Dr & 29th St                  |
+| 18239  | 154    | Southport Ave & Belmont Ave          |
+| 18056  | 214    | Damen Ave & Grand Ave                |
+| 17790  | 245    | Clarendon Ave & Junior Ter           |
+| 17089  | 239    | Western Ave & Leland Ave             |
+| 17085  | 30     | Ashland Ave & Augusta Blvd           |
+| 17076  | 148    | State St & 33rd St                   |
+| 17062  | 343    | Racine Ave & Wrightwood Ave          |
+| 16915  | 213    | Leavitt St & North Ave               |
+| 16830  | 341    | Adler Planetarium                    |
+| 16788  | 32     | Racine Ave & Congress Pkwy           |
+| 16407  | 129    | Blue Island Ave & 18th St            |
+| 16404  | 294    | Broadway & Berwyn Ave                |
+| 16393  | 459    | Lakefront Trail & Bryn Mawr Ave      |
+| 16381  | 180    | Ritchie Ct & Banks St                |
+| 16351  | 188    | Greenview Ave & Fullerton Ave        |
+| 16312  | 322    | Kimbark Ave & 53rd St                |
+| 16115  | 109    | 900 W Harrison                       |
+| 16115  | 109    | 900 W Harrison St                    |
+| 16075  | 242    | Damen Ave & Leland Ave               |
+| 15757  | 150    | Fort Dearborn Dr & 31st St           |
+| 15697  | 146    | Loomis St & Jackson Blvd             |
+| 15653  | 244    | Ravenswood Ave & Irving Park Rd      |
+| 15512  | 347    | Ashland Ave & Grace St               |
+| 15475  | 243    | Lincoln Ave & Leavitt St             |
+| 15415  | 258    | Logan Blvd & Elston Ave              |
+| 15383  | 23     | Orleans St & Elm St                  |
+| 15383  | 23     | Orleans St & Elm St (*)              |
+| 15305  | 137    | Morgan Ave & 14th Pl                 |
+| 15285  | 463    | Clark St & Berwyn Ave                |
+| 14884  | 6      | Dusable Harbor                       |
+| 14818  | 238    | Ravenswood Ave & Montrose Ave (*)    |
+| 14818  | 238    | Ravenswood Ave & Montrose Ave        |
+| 14811  | 119    | Ashland Ave & Lake St                |
+| 14808  | 3      | Shedd Aquarium                       |
+| 14749  | 298    | Lincoln Ave & Belle Plaine Ave       |
+| 14704  | 326    | Clark St & Leland Ave                |
+| 14693  | 305    | Western Ave & Division St            |
+| 14409  | 55     | Halsted St & James M Rochford St     |
+| 14409  | 55     | Halsted St & Roosevelt Rd            |
+| 14271  | 27     | Larrabee St & North Ave              |
+| 14223  | 309    | Leavitt St & Armitage Ave            |
+| 14113  | 328    | Ellis Ave & 58th St                  |
+| 14105  | 376    | Artesian Ave & Hubbard St            |
+| 13961  | 97     | Museum Campus                        |
+| 13961  | 97     | Field Museum                         |
+| 13851  | 257    | Lincoln Ave & Waveland Ave           |
+| 13650  | 234    | Clark St & Montrose Ave              |
+| 13558  | 383    | Ashland Ave & Harrison St            |
+| 13518  | 166    | Ashland Ave & Wrightwood Ave         |
+| 13476  | 247    | Shore Drive & 55th St                |
+| 13476  | 247    | Shore Dr & 55th St                   |
+| 13473  | 290    | Kedzie Ave & Palmer Ct               |
+| 13311  | 293    | Broadway & Wilson Ave                |
+| 12983  | 277    | Ashland Ave & Grand Ave              |
+| 12880  | 285    | Wood St & Hubbard St                 |
+| 12880  | 285    | Wood St & Grand Ave                  |
+| 12811  | 420    | Ellis Ave & 55th St                  |
+| 12792  | 253    | Clifton Ave & Lawrence Ave           |
+| 12692  | 310    | Damen Ave & Charleston St            |
+| 12645  | 374    | Western Ave & Walton St              |
+| 12631  | 250    | Ashland Ave & Wellington Ave         |
+| 12622  | 15     | Racine Ave & 19th St                 |
+| 12622  | 15     | Racine Ave & 18th St                 |
+| 12455  | 120    | Wentworth Ave & Archer Ave           |
+| 12197  | 295    | Broadway & Argyle St                 |
+| 11952  | 345    | Lake Park Ave & 56th St              |
+| 11929  | 314    | Ravenswood Ave & Berteau Ave         |
+| 11781  | 319    | Greenview Ave & Diversey Pkwy        |
+| 11775  | 34     | Cannon Dr & Fullerton Ave            |
+| 11704  | 162    | Damen Ave & Wellington Ave           |
+| 11571  | 205    | Paulina St & 18th St                 |
+| 11541  | 308    | Seeley Ave & Roscoe St               |
+| 11536  | 414    | Princeton Ave & China Pl             |
+| 11536  | 414    | Canal St & Taylor St                 |
+| 11509  | 14     | Morgan St & 18th St                  |
+| 11450  | 169    | Canal St & Harrison St               |
+| 11346  | 259    | California Ave & Francis Pl          |
+| 11000  | 160    | Campbell Ave & North Ave             |
+| 10689  | 315    | Elston Ave & Wabansia Ave            |
+| 10689  | 315    | Leavitt St & Hirsch St               |
+| 10530  | 251    | Clarendon Ave & Leland Ave           |
+| 10342  | 417    | Cornell Ave & Hyde Park B lvd        |
+| 10342  | 417    | Cornell Ave & Hyde Park Blvd         |
+| 10302  | 426    | Ellis Ave & 60th St                  |
+| 10160  | 149    | Calumet Ave & 33rd St                |
+| 10115  | 316    | Damen Ave & Sunnyside Ave            |
+| 10026  | 122    | Ogden Ave & Congress Pkwy            |
+| 9756   | 228    | Damen Ave & Melrose Ave              |
+| 9665   | 246    | Ashland Ave & Belle Plaine Ave       |
+| 9633   | 339    | Emerald Ave & 31st St                |
+| 9550   | 163    | Paulina St & Diversey Pkwy           |
+| 9550   | 163    | Damen Ave & Clybourn Ave             |
+| 9509   | 311    | Lincoln Ave & Eastwood Ave           |
+| 9509   | 311    | Leavitt St & Lawrence Ave            |
+| 9502   | 272    | Indiana Ave & 31st St                |
+| 9462   | 507    | Humboldt Blvd & Armitage Ave         |
+| 9264   | 292    | Southport Ave & Clark St             |
+| 9213   | 460    | Clark St & Bryn Mawr Ave             |
+| 9202   | 276    | California Ave & North Ave           |
+| 9179   | 159    | Claremont Ave & Hirsch St            |
+| 8962   | 178    | State St & 19th St                   |
+| 8759   | 248    | Woodlawn Ave & 55th St               |
+| 8746   | 170    | Clinton St & 18th St                 |
+| 8707   | 464    | Damen Ave & Foster Ave               |
+| 8674   | 202    | Halsted St & 18th St                 |
+| 8473   | 461    | Broadway & Ridge Ave                 |
+| 8422   | 2      | Buckingham Fountain                  |
+| 8422   | 2      | Michigan Ave & Balbo Ave             |
+| 8179   | 458    | Broadway & Thorndale Ave             |
+| 8106   | 454    | Broadway & Granville Ave             |
+| 8077   | 418    | Ellis Ave & 53rd St                  |
+| 8016   | 236    | Sedgwick St & Schiller St            |
+| 7982   | 511    | Albany Ave & Bloomingdale Ave        |
+| 7936   | 465    | Marine Dr & Ainslie St               |
+| 7872   | 394    | Clark St & 9th St (AMLI)             |
+| 7863   | 184    | State St & 35th St                   |
+| 7836   | 222    | Milwaukee Ave & Rockwell St          |
+| 7762   | 206    | Halsted St & Archer Ave              |
+| 7730   | 42     | Wabash Ave & Cermak Rd               |
+| 7702   | 274    | Racine Ave & 15th St                 |
+| 7681   | 330    | Lincoln Ave & Addison St             |
+| 7633   | 323    | Sheridan Rd & Lawrence Ave           |
+| 7595   | 447    | Glenwood Ave & Morse Ave             |
+| 7506   | 62     | McCormick Place                      |
+| 7346   | 493    | Western Ave & Roscoe St              |
+| 7346   | 493    | Oakley Ave & Roscoe St               |
+| 7317   | 419    | Lake Park Ave & 53rd St              |
+| 7289   | 451    | Sheridan Rd & Loyola Ave             |
+| 7224   | 297    | Paulina St & Montrose Ave            |
+| 7136   | 504    | Campbell Ave & Fullerton Ave         |
+| 7037   | 185    | Stave St & Armitage Ave              |
+| 6827   | 216    | California Ave & Division St         |
+| 6769   | 370    | Calumet Ave & 21st St                |
+| 6624   | 596    | Benson Ave & Church St               |
+| 6578   | 506    | Spaulding Ave & Armitage Ave         |
+| 6490   | 207    | Emerald Ave & 28th St                |
+| 6485   | 478    | Rockwell St & Eastwood Ave           |
+| 6424   | 280    | Morgan St & 31st St                  |
+| 6140   | 121    | Blackstone Ave & Hyde Park Blvd      |
+| 5920   | 215    | Damen Ave & Madison St               |
+| 5840   | 482    | Campbell Ave & Montrose Ave          |
+| 5824   | 432    | Clark St & Lunt Ave                  |
+| 5810   | 263    | Rhodes Ave & 32nd St                 |
+| 5678   | 457    | Clark St & Elmdale Ave               |
+| 5646   | 365    | Halsted St & North Branch St         |
+| 5635   | 147    | Indiana Ave & 26th St                |
+| 5496   | 501    | Richmond St & Diversey Ave           |
+| 5478   | 103    | Clinton St & Polk St                 |
+| 5478   | 103    | Clinton St & Polk St (*)             |
+| 5471   | 502    | California Ave & Altgeld St          |
+| 5290   | 462    | Ravenswood Ave & Balmoral Ave        |
+| 5248   | 275    | Ashland Ave & 13th St                |
+| 5139   | 503    | Drake Ave & Fullerton Ave            |
+| 5059   | 402    | Princeton Ave & 31st St              |
+| 5059   | 402    | Shields Ave & 31st St                |
+| 4962   | 279    | Halsted St & 35th St (*)             |
+| 4962   | 279    | Halsted St & 35th St                 |
+| 4909   | 505    | Winchester Ave & Elston Ave          |
+| 4825   | 124    | Damen Ave & Cullerton St             |
+| 4708   | 434    | Ogden Ave & Roosevelt Rd             |
+| 4623   | 267    | Lake Park Ave & 47th St              |
+| 4614   | 403    | Wentworth Ave & 33rd St              |
+| 4599   | 204    | Prairie Ave & Garfield Blvd          |
+| 4585   | 620    | Orleans St & Chestnut St (NEXT Apts) |
+| 4577   | 490    | Troy St & Elston Ave                 |
+| 4574   | 486    | Oakley Ave & Irving Park Rd          |
+| 4548   | 497    | Kimball Ave & Belmont Ave            |
+| 4496   | 491    | Talman Ave & Addison St              |
+| 4362   | 278    | Wallace Ave & 35th St                |
+| 4362   | 278    | Wallace St & 35th St                 |
+| 4299   | 425    | Harper Ave & 59th St                 |
+| 4267   | 449    | Clark St & Columbia Ave              |
+| 4203   | 135    | Halsted St & 21st St                 |
+| 4161   | 471    | Francisco Ave & Foster Ave           |
+| 4141   | 171    | May St & Cullerton St                |
+| 4126   | 492    | Leavitt St & Addison St              |
+| 4040   | 209    | Normal Ave & Archer Ave              |
+| 4000   | 472    | Lincoln Ave & Winona St              |
+| 3959   | 509    | Troy St & North Ave                  |
+| 3904   | 252    | Greenwood Ave & 47th St              |
+| 3897   | 604    | Sheridan Rd & Noyes St (NU)          |
+| 3890   | 382    | Western Ave & Congress Pkwy          |
+| 3706   | 203    | Western Ave & 21st St                |
+| 3684   | 132    | Wentworth Ave & 24th St              |
+| 3663   | 499    | Kosciuszko Park                      |
+| 3582   | 498    | California Ave & Fletcher St         |
+| 3561   | 475    | Washtenaw Ave & Lawrence Ave         |
+| 3520   | 453    | Clark St & Schreiber Ave             |
+| 3479   | 474    | Christiana Ave & Lawrence Ave        |
+| 3467   | 354    | Sheridan Rd & Greenleaf Ave          |
+| 3415   | 597    | Chicago Ave & Washington St          |
+| 3388   | 623    | Michigan Ave & 8th St                |
+| 3385   | 489    | Drake Ave & Addison St               |
+| 3342   | 605    | University Library (NU)              |
+| 3272   | 208    | Ashland Ave & 21st St                |
+| 3223   | 520    | Greenview Ave & Jarvis Ave           |
+| 3125   | 372    | Humboldt Dr & Luis Munoz Marin Dr    |
+| 3125   | 372    | California Ave & Augusta Blvd        |
+| 3096   | 479    | Drake Ave & Montrose Ave             |
+| 3085   | 136    | Racine Ave & 13th St                 |
+| 2980   | 603    | Chicago Ave & Sheridan Rd            |
+| 2970   | 218    | Wells St & 19th St                   |
+| 2899   | 401    | Shields Ave & 28th Pl                |
+| 2846   | 424    | Museum of Science and Industry       |
+| 2830   | 484    | Monticello Ave & Irving Park Rd      |
+| 2827   | 483    | Avondale Ave & Irving Park Rd        |
+| 2827   | 483    | Keeler Ave & Irving Park Rd          |
+| 2798   | 523    | Eastlake Ter & Rogers Ave            |
+| 2737   | 335    | Calumet Ave & 35th St                |
+| 2675   | 477    | Manor Ave & Leland Ave               |
+| 2622   | 481    | California Ave & Montrose Ave        |
+| 2534   | 485    | Sawyer Ave & Irving Park Rd          |
+| 2515   | 476    | Kedzie Ave & Leland Ave              |
+| 2506   | 366    | Loomis St & Archer Ave               |
+| 2488   | 515    | Paulina St & Howard St               |
+| 2475   | 469    | St. Louis Ave & Balmoral Ave         |
+| 2456   | 480    | Albany (Kedzie) Ave & Montrose Ave   |
+| 2456   | 480    | Kedzie Ave & Montrose Ave            |
+| 2456   | 480    | Albany Ave & Montrose Ave            |
+| 2455   | 381    | Western Ave & Monroe St              |
+| 2423   | 487    | California Ave & Byron St            |
+| 2399   | 336    | Cottage Grove Ave & 47th St          |
+| 2266   | 496    | Avers Ave & Belmont Ave              |
+| 2186   | 510    | Spaulding Ave & Division St          |
+| 2141   | 377    | Kedzie Ave & Lake St                 |
+| 2102   | 348    | California Ave & 21st St             |
+| 2098   | 500    | Central Park Ave & Elbridge Ave      |
+| 2074   | 405    | Wentworth Ave & 35th St              |
+| 1978   | 265    | Cottage Grove Ave & Oakwood Blvd     |
+| 1929   | 413    | Woodlawn Ave & Lake Park Ave         |
+| 1879   | 470    | Kedzie Ave & Foster Ave              |
+| 1804   | 610    | Marion St & South Blvd               |
+| 1780   | 622    | California Ave & Cortez St           |
+| 1780   | 416    | Dorchester Ave & 49th St             |
+| 1774   | 367    | Racine Ave & 35th St                 |
+| 1744   | 467    | Western Ave & Lunt Ave               |
+| 1676   | 624    | Dearborn St & Van Buren St (*)       |
+| 1647   | 406    | Lake Park Ave & 35th St              |
+| 1630   | 9      | Leavitt St & Archer Ave              |
+| 1621   | 442    | California Ave & 23rd Pl             |
+| 1581   | 179    | Martin Luther King Dr & Oakwood Blvd |
+| 1581   | 179    | MLK Jr Dr & Oakwood Blvd             |
+| 1566   | 281    | Western Ave & 24th St                |
+| 1554   | 378    | California Ave & Lake St             |
+| 1531   | 422    | DuSable Museum                       |
+| 1522   | 468    | Budlong Woods Library                |
+| 1516   | 452    | Western Ave & Granville Ave          |
+| 1496   | 437    | Washtenaw Ave & Ogden Ave (*)        |
+| 1496   | 437    | Washtenaw Ave & 15th St (*)          |
+| 1496   | 437    | Washtenaw Ave & 15th St              |
+| 1488   | 351    | Cottage Grove Ave & 51st St          |
+| 1440   | 262    | Halsted St & 37th St                 |
+| 1427   | 193    | State St & 29th St                   |
+| 1421   | 494    | Kedzie Ave & Bryn Mawr Ave           |
+| 1409   | 508    | Central Park Ave & North Ave         |
+| 1396   | 427    | Cottage Grove Ave & 63rd St          |
+| 1381   | 601    | Central St Metra                     |
+| 1363   | 373    | Kedzie Ave & Chicago Ave             |
+| 1351   | 602    | Central St & Girard Ave              |
+| 1327   | 271    | Cottage Grove Ave & 43rd St          |
+| 1301   | 495    | Keystone Ave & Montrose Ave          |
+| 1229   | 436    | California Ave & Roosevelt Rd        |
+| 1229   | 436    | Fairfield Ave & Roosevelt Rd         |
+| 1229   | 12     | South Shore Dr & 71st St             |
+| 1211   | 200    | MLK Jr Dr & 47th St                  |
+| 1211   | 200    | King Dr & 47th St                    |
+| 1207   | 600    | Dodge Ave & Church St                |
+| 1174   | 456    | 2112 W Peterson Ave                  |
+| 1165   | 619    | Keystone Ave & Fullerton Ave         |
+| 1130   | 606    | Forest Ave & Chicago Ave             |
+| 1126   | 435    | Kedzie Ave & Roosevelt Rd            |
+| 1114   | 167    | Damen Ave & Coulter St               |
+| 1085   | 517    | Clark St & Jarvis Ave                |
+| 1061   | 455    | Maplewood Ave & Peterson Ave         |
+| 1051   | 466    | Ridge Blvd & Touhy Ave               |
+| 1046   | 101    | 63rd St Beach                        |
+| 1045   | 611    | Oak Park Ave & South Blvd            |
+| 1042   | 415    | Calumet Ave & 51st St                |
+| 1031   | 448    | Warren Park East                     |
+| 1027   | 613    | Wisconsin Ave & Madison St           |
+| 1011   | 522    | Bosworth Ave & Howard St             |
+| 984    | 353    | Clark St & Touhy Ave                 |
+| 967    | 428    | Dorchester Ave & 63rd St             |
+| 964    | 368    | Ashland Ave & Archer Ave             |
+| 949    | 525    | Glenwood Ave & Touhy Ave             |
+| 913    | 201    | Indiana Ave & 40th St                |
+| 881    | 450    | Warren Park West                     |
+| 881    | 399    | South Shore Dr & 74th St             |
+| 879    | 355    | South Shore Dr & 67th St             |
+| 861    | 352    | Jeffery Blvd & 67th St               |
+| 856    | 590    | Kilbourn Ave & Irving Park Rd        |
+| 843    | 609    | Forest Ave & Lake St                 |
+| 826    | 375    | Sacramento Blvd & Franklin Blvd      |
+| 820    | 514    | Ridge Blvd & Howard St               |
+| 818    | 411    | Halsted St & 47th Pl                 |
+| 813    | 410    | Prairie Ave & 43rd St                |
+| 804    | 439    | Kedzie Ave & 21st St                 |
+| 799    | 614    | East Ave & Madison St                |
+| 782    | 369    | Wood St & 35th St                    |
+| 770    | 612    | Ridgeland Ave & Lake St              |
+| 722    | 618    | Lombard Ave & Garfield St            |
+| 709    | 385    | Princeton Ave & Garfield Blvd        |
+| 705    | 95     | Stony Island Ave & 64th St           |
+| 699    | 607    | Cuyler Ave & Augusta St              |
+| 681    | 102    | Stony Island Ave & 67th St           |
+| 666    | 488    | Pulaski Rd & Eddy St                 |
+| 666    | 488    | Pulaksi Rd & Eddy St                 |
+| 639    | 598    | Elmwood Ave & Austin St              |
+| 624    | 518    | Conservatory Dr & Lake St            |
+| 622    | 592    | Knox Ave & Montrose Ave              |
+| 608    | 412    | Princeton Ave & 47th St              |
+| 599    | 617    | East Ave & Garfield St               |
+| 591    | 616    | Oak Park Ave & Harrison St           |
+| 576    | 625    | Chicago Ave & Dempster St            |
+| 554    | 527    | Western Ave & Howard St              |
+| 553    | 438    | Central Park Ave & Ogden Ave         |
+| 551    | 11     | Jeffery Blvd & 71st St               |
+| 493    | 526    | Oakley Ave & Touhy Ave               |
+| 491    | 356    | Stony Island Ave & 71st St           |
+| 481    | 429    | Cottage Grove Ave & 67th St          |
+| 480    | 445    | California Ave & 26th St             |
+| 458    | 433    | Kedzie Ave & Harrison St             |
+| 451    | 446    | Western Ave & 28th St                |
+| 444    | 591    | Kilbourn Ave & Milwaukee Ave         |
+| 434    | 599    | Valli Produce - Evanston Plaza       |
+| 432    | 589    | Milwaukee Ave & Cuyler Ave           |
+| 431    | 421    | MLK Jr Dr & 56th St (*)              |
+| 431    | 421    | MLK Jr Dr & 56th St                  |
+| 426    | 397    | Saginaw Ave & Exchange Ave           |
+| 407    | 519    | Wolcott Ave & Fargo Ave              |
+| 406    | 552    | Ashland Ave & McDowell Ave           |
+| 384    | 615    | Lombard Ave & Madison St             |
+| 372    | 443    | Millard Ave & 26th St                |
+| 356    | 270    | Stony Island Ave & 75th St           |
+| 354    | 532    | Austin Blvd & Lake St                |
+| 336    | 444    | Albany Ave & 26th St                 |
+| 320    | 441    | Kedzie Ave & 24th St                 |
+| 315    | 400    | Cottage Grove Ave & 71st St          |
+| 306    | 570    | Evans Ave & 75th St                  |
+| 306    | 388    | Halsted St & 63rd St                 |
+| 304    | 408    | Union Ave & Root St                  |
+| 304    | 408    | Union Ave & 42nd St                  |
+| 300    | 573    | State St & 79th St                   |
+| 291    | 390    | Wentworth Ave & 63rd St              |
+| 272    | 594    | Western Blvd & 48th Pl               |
+| 267    | 430    | MLK Jr Dr & 63rd St                  |
+| 254    | 547    | Ashland Ave & Pershing Rd            |
+| 248    | 431    | Eberhart Ave & 61st St               |
+| 240    | 524    | Austin Blvd & Chicago Ave            |
+| 234    | 528    | Pulaski Rd & Lake St                 |
+| 219    | 608    | Humphrey Ave & Ontario St            |
+| 211    | 585    | Cottage Grove Ave & 83rd St          |
+| 189    | 396    | Yates Blvd & 75th St                 |
+| 187    | 386    | Halsted St & 56th St                 |
+| 183    | 580    | Exchange Ave & 79th St               |
+| 182    | 544    | Austin Blvd & Madison St             |
+| 182    | 544    | Mason Ave & Madison St               |
+| 177    | 534    | Pulaski Rd & Madison St              |
+| 169    | 575    | Cottage Grove Ave & 78th St          |
+| 168    | 395    | Jeffery Blvd & 76th St               |
+| 159    | 571    | Vernon Ave & 75th St                 |
+| 157    | 407    | State St & Pershing Rd               |
+| 150    | 392    | Perry Ave & 69th St                  |
+| 149    | 533    | Central Park Blvd & 5th Ave          |
+| 148    | 543    | Laramie Ave & Gladys Ave             |
+| 148    | 535    | Pulaski Rd & Congress Pkwy           |
+| 146    | 572    | State St & 76th St                   |
+| 146    | 409    | Shields Ave & 43rd St                |
+| 145    | 551    | Hoyne Ave & 47th St                  |
+| 145    | 545    | Kostner Ave & Adams St               |
+| 140    | 398    | Rainbow Beach                        |
+| 137    | 546    | Damen Ave & Pershing Rd              |
+| 123    | 542    | Central Ave & Madison St             |
+| 120    | 574    | Eberhart (Vernon) Ave & 79th St      |
+| 120    | 574    | Vernon Ave & 79th St                 |
+| 116    | 536    | Kostner Ave & Lake St                |
+| 112    | 530    | Laramie Ave & Kinzie St              |
+| 106    | 554    | Damen Ave & 51st St                  |
+| 105    | 577    | Stony Island Ave & South Chicago Ave |
+| 105    | 391    | Halsted St & 69th St                 |
+| 101    | 579    | Phillips Ave & 79th St               |
+| 96     | 576    | Greenwood Ave & 79th St              |
+| 95     | 553    | Elizabeth St & 47th St               |
+| 91     | 529    | Cicero Ave & Lake St                 |
+| 89     | 540    | Laramie Ave & Madison St             |
+| 87     | 393    | Calumet Ave & 71st St                |
+| 86     | 531    | Central Ave & Lake St                |
+| 80     | 578    | Chappel Ave & 79th St                |
+| 80     | 578    | Bennett Ave & 79th St                |
+| 76     | 563    | Ashland Ave & 63rd St                |
+| 75     | 539    | Cicero Ave & Quincy St               |
+| 73     | 583    | Stony Island Ave & 82nd St           |
+| 68     | 550    | Central Ave & Chicago Ave            |
+| 68     | 555    | Ashland Ave & 50th St                |
+| 68     | 440    | Lawndale Ave & 23rd St               |
+| 62     | 541    | Central Ave & Harrison St            |
+| 62     | 537    | Kenton Ave & Madison St              |
+| 57     | 587    | Wabash Ave & 83rd St                 |
+| 50     | 384    | Halsted St & 51st St                 |
+| 46     | 564    | Racine Ave & 65th St                 |
+| 46     | 548    | Morgan St & Pershing Rd              |
+| 45     | 560    | Marshfield Ave & 59th St             |
+| 37     | 595    | Wabash Ave & 87th St                 |
+| 32     | 556    | Throop St & 52nd St                  |
+| 32     | 593    | Halsted St & 59th St                 |
+| 29     | 549    | Marshfield Ave & 44th St             |
+| 28     | 586    | MLK Jr Dr & 83rd St                  |
+| 27     | 626    | Delano Ct & Roosevelt Rd             |
+| 27     | 559    | Racine Ave & Garfield Blvd           |
+| 27     | 538    | Cicero Ave & Flournoy St             |
+| 26     | 566    | Ashland Ave & 69th St                |
+| 22     | 561    | Damen Ave & 61st St                  |
+| 22     | 561    | Damen Ave & 59th St                  |
+| 20     | 588    | South Chicago Ave & 83rd St          |
+| 15     | 569    | Woodlawn Ave & 75th St               |
+| 15     | 568    | Normal Ave & 72nd St                 |
+| 10     | 584    | Ellis Ave & 83rd St                  |
+| 9      | 567    | May St & 69th St                     |
+| 9      | 558    | Ashland Ave & Garfield Blvd          |
+| 7      | 581    | Commercial Ave & 83rd St             |
+| 5      | 565    | Ashland Ave & 66th St                |
+| 5      | 562    | Racine Ave & 61st St                 |
+| 4      | 557    | Seeley Ave & Garfield Blvd           |
+| 2      | 582    | Phillips Ave & 82nd St               |
 
 ## to_total_traffic
 
-## time_avg
+| wo | lo | lo |
+|-------|-------|----------------------------------------|
+| 161152|  91   |   Clinton St & Washington Blvd         |
+| 139654|  192  |   Canal St & Adams St                  |
+| 129632|  174  |   Canal St & Madison St                |
+| 117378|  77   |   Clinton St & Madison St              |
+| 90547 |  287  |   Franklin St & Monroe St              |
+| 90547 |  287  |   Franklin St & Arcade Pl              |
+| 82237 |  75   |   Clinton St & Jackson Blvd            |
+| 82237 |  75   |   Canal St & Jackson Blvd              |
+| 78787 |  133  |   Kingsbury St & Kinzie St             |
+| 78042 |  81   |   Daley Center Plaza                   |
+| 76968 |  43   |   Michigan Ave & Washington St         |
+| 75981 |  283  |   LaSalle St & Jackson Blvd            |
+| 73992 |  49   |   Dearborn St & Monroe St              |
+| 71481 |  110  |   Dearborn St & Erie St                |
+| 71481 |  110  |   State St & Erie St                   |
+| 71324 |  176  |   Clark St & Elm St                    |
+| 71249 |  177  |   Theater on the Lake                  |
+| 70776 |  66   |   Clinton St & Lake St                 |
+| 70225 |  100  |   Orleans St & Merchandise Mart Plaza  |
+| 68339 |  48   |   Larrabee St & Kingsbury St           |
+| 68077 |  211  |   St. Clair St & Erie St               |
+| 68077 |  211  |   St Clair St & Erie St                |
+| 67746 |  289  |   Wells St & Concord Pl                |
+| 67746 |  289  |   Wells St & Concord Ln                |
+| 67022 |  268  |   Lake Shore Dr & North Blvd           |
+| 66409 |  59   |   Wabash Ave & Roosevelt Rd            |
+| 63456 |  181  |   LaSalle St & Illinois St             |
+| 63419 |  52   |   Michigan Ave & Lake St               |
+| 62464 |  35   |   Streeter Dr & Illinois St            |
+| 62464 |  35   |   Streeter Dr & Grand Ave              |
+| 62458 |  36   |   Franklin St & Jackson Blvd           |
+| 60969 |  74   |   Kingsbury St & Erie St               |
+| 58660 |  117  |   Wilton Ave & Belmont Ave             |
+| 58477 |  26   |   McClurg Ct & Illinois St             |
+| 57384 |  47   |   State St & Kinzie St                 |
+| 56857 |  69   |   Damen Ave & Pierce Ave               |
+| 55312 |  140  |   Dearborn Pkwy & Delaware Pl          |
+| 55157 |  56   |   Desplaines St & Kinzie St            |
+| 55094 |  195  |   Columbus Dr & Randolph St            |
+| 54822 |  199  |   Wabash Ave & Grand Ave               |
+| 54232 |  85   |   Michigan Ave & Oak St                |
+| 53227 |  94   |   Clark St & Armitage Ave              |
+| 51487 |  37   |   Dearborn St & Adams St               |
+| 51448 |  31   |   Franklin St & Chicago Ave            |
+| 51117 |  212  |   Wells St & Hubbard St                |
+| 51117 |  212  |   Orleans St & Ohio St                 |
+| 50822 |  134  |   Peoria St & Jackson Blvd             |
+| 50066 |  58   |   Marshfield Ave & Cortland St         |
+| 49935 |  286  |   Franklin St & Quincy St              |
+| 49861 |  51   |   Clark St & Randolph St               |
+| 49050 |  67   |   Sheffield Ave & Fullerton Ave        |
+| 48784 |  141  |   Clark St & Lincoln Ave               |
+| 48463 |  198  |   Green St (Halsted St) & Madison St   |
+| 48463 |  198  |   Halsted St & Madison St              |
+| 48463 |  198  |   Green St & Madison St                |
+| 47210 |  53   |   LaSalle (Wells) St & Huron St        |
+| 47210 |  53   |   Wells St & Huron St                  |
+| 47210 |  53   |   Wells St & Erie St                   |
+| 47194 |  255  |   Indiana Ave & Roosevelt Rd           |
+| 46218 |  220  |   Hampden Ct & Diversey Pkwy           |
+| 46182 |  90   |   Millennium Park                      |
+| 45852 |  240  |   Sheridan Rd & Irving Park Rd         |
+| 45441 |  98   |   LaSalle St & Washington St           |
+| 44932 |  24   |   Fairbanks Ct & Grand Ave             |
+| 44892 |  44   |   State St & Randolph St               |
+| 44865 |  340  |   Clark St & Wrightwood Ave            |
+| 44563 |  210  |   Ashland Ave & Division St            |
+| 44050 |  71   |   Morgan St & Lake St                  |
+| 43844 |  164  |   Franklin St & Lake St                |
+| 41613 |  344  |   Ravenswood Ave & Lawrence Ave        |
+| 41613 |  344  |   Wolcott Ave & Lawrence Ave           |
+| 41414 |  112  |   Green St & Randolph St               |
+| 41374 |  300  |   Broadway & Barry Ave                 |
+| 41341 |  115  |   Sheffield Ave & Wellington Ave       |
+| 40736 |  191  |   Canal St & Monroe St (*)             |
+| 40736 |  191  |   Canal St & Monroe St                 |
+| 39809 |  291  |   Wells St & Evergreen Ave             |
+| 39433 |  156  |   Clark St & Wellington Ave            |
+| 39423 |  114  |   Sheffield Ave & Waveland Ave         |
+| 39423 |  114  |   Sheffield Ave & Addison St           |
+| 38710 |  241  |   Morgan St & Polk St                  |
+| 38677 |  113  |   Bissell St & Armitage Ave            |
+| 38611 |  50   |   Clark St & Congress Pkwy             |
+| 38558 |  301  |   Clark St & Schiller St               |
+| 38551 |  13   |   Wilton Ave & Diversey Pkwy           |
+| 38282 |  173  |   Mies van der Rohe Way & Chicago Ave  |
+| 37889 |  33   |   State St & Van Buren St              |
+| 37685 |  144  |   Larrabee St & Webster Ave            |
+| 37478 |  153  |   Southport Ave & Wellington Ave       |
+| 37476 |  76   |   Lake Shore Dr & Monroe St            |
+| 37356 |  229  |   Southport Ave & Roscoe St            |
+| 36586 |  313  |   Lakeview Ave & Fullerton Pkwy        |
+| 36527 |  331  |   Halsted St & Blackhawk St            |
+| 36527 |  331  |   Halsted St & Blackhawk St (*)        |
+| 36483 |  80   |   Aberdeen St & Monroe St (Madison St) |
+| 36483 |  80   |   Aberdeen St & Madison St             |
+| 36483 |  80   |   Aberdeen St & Monroe St              |
+| 36293 |  284  |   Michigan Ave & Jackson Blvd          |
+| 35733 |  128  |   Damen Ave & Chicago Ave              |
+| 35145 |  61   |   Wood St & Milwaukee Ave              |
+| 34865 |  18   |   Wacker Dr & Washington St            |
+| 34389 |  20   |   Sheffield Ave & Kingsbury St         |
+| 34142 |  334  |   Lake Shore Dr & Belmont Ave          |
+| 33972 |  60   |   Dayton St & North Ave                |
+| 33890 |  327  |   Sheffield Ave & Webster Ave          |
+| 33783 |  303  |   Broadway & Cornelia Ave              |
+| 33754 |  143  |   Sedgwick St & Webster Ave            |
+| 33693 |  73   |   Jefferson St & Monroe St             |
+| 33514 |  118  |   Sedgwick St & North Ave              |
+| 33454 |  296  |   Broadway & Belmont Ave               |
+| 33242 |  321  |   Wabash Ave & 9th St                  |
+| 33242 |  321  |   Wabash Ave & 8th St                  |
+| 33083 |  130  |   Damen Ave & Division St              |
+| 32749 |  38   |   Clark St & Lake St                   |
+| 32584 |  99   |   Lake Shore Dr & Ohio St              |
+| 32312 |  232  |   Pine Grove Ave & Waveland Ave        |
+| 32258 |  254  |   Pine Grove Ave & Irving Park Rd      |
+| 32120 |  142  |   McClurg Ct & Erie St                 |
+| 32054 |  299  |   Halsted St & Roscoe St               |
+| 31908 |  230  |   Lincoln Ave & Roscoe St              |
+| 31802 |  227  |   Southport Ave & Waveland Ave         |
+| 31593 |  111  |   Sedgwick St & Huron St               |
+| 31354 |  21   |   Aberdeen St & Jackson Blvd           |
+| 31343 |  106  |   State St & Pearson St                |
+| 31169 |  157  |   Lake Shore Dr & Wellington Ave       |
+| 30273 |  304  |   Halsted St & Waveland Ave            |
+| 30273 |  304  |   Broadway & Waveland Ave              |
+| 29731 |  125  |   Rush St & Hubbard St                 |
+| 29712 |  349  |   Halsted St & Wrightwood Ave          |
+| 29674 |  41   |   Federal St & Polk St                 |
+| 29626 |  332  |   Halsted St & Diversey Pkwy           |
+| 29613 |  273  |   Michigan Ave & 18th St               |
+| 29613 |  273  |   Michigan Ave & 16th St               |
+| 29309 |  127  |   Lincoln Ave & Fullerton Ave          |
+| 29161 |  84   |   Milwaukee Ave & Grand Ave            |
+| 29161 |  84   |   Green St & Milwaukee Ave             |
+| 29161 |  84   |   Union Ave & Grand Ave                |
+| 29047 |  197  |   Michigan Ave & Madison St            |
+| 28619 |  264  |   Stetson Ave & South Water St         |
+| 28431 |  337  |   Clark St & Chicago Ave               |
+| 27780 |  123  |   California Ave & Milwaukee Ave       |
+| 27779 |  346  |   Ada St & Washington Blvd             |
+| 27568 |  72   |   State St & 16th St                   |
+| 27568 |  72   |   Wabash Ave (State St) & 16th St      |
+| 27568 |  72   |   Wabash Ave & 16th St                 |
+| 27534 |  225  |   Halsted St & Dickens Ave             |
+| 27509 |  233  |   Sangamon St & Washington Blvd (*)    |
+| 27509 |  233  |   Sangamon St & Washington Blvd        |
+| 27297 |  260  |   Kedzie Ave & Milwaukee Ave           |
+| 27160 |  217  |   Racine Ave (May St) & Fulton St      |
+| 27160 |  217  |   May St & Fulton St                   |
+| 26933 |  93   |   Sheffield Ave & Willow St            |
+| 26762 |  342  |   Wolcott Ave & Polk St                |
+| 26735 |  54   |   Ogden Ave & Chicago Ave              |
+| 26698 |  108  |   Halsted St & Polk St                 |
+| 26646 |  126  |   Clark St & North Ave                 |
+| 26556 |  231  |   Sheridan Rd & Montrose Ave           |
+| 26445 |  182  |   Wells St & Elm St                    |
+| 26300 |  196  |   Cityfront Plaza Dr & Pioneer Ct      |
+| 26300 |  196  |   Cityfront Plaza & N Water St         |
+| 26271 |  320  |   Loomis St & Lexington St             |
+| 26122 |  223  |   Clifton Ave & Armitage Ave           |
+| 25462 |  29   |   Noble St & Milwaukee Ave             |
+| 25457 |  152  |   Lincoln Ave & Diversey Pkwy          |
+| 25397 |  194  |   Wabash Ave & Wacker Pl               |
+| 25397 |  194  |   State St & Wacker Dr                 |
+| 25273 |  168  |   Michigan Ave & 14th St               |
+| 25258 |  57   |   Clinton St & Roosevelt Rd            |
+| 25214 |  25   |   Michigan Ave & Pearson St            |
+| 25187 |  219  |   Damen Ave & Cortland St              |
+| 25007 |  175  |   Wells St & Polk St                   |
+| 24926 |  39   |   Wabash Ave & Adams St                |
+| 24439 |  302  |   Sheffield Ave & Wrightwood Ave       |
+| 24417 |  329  |   Lake Shore Dr & Diversey Pkwy        |
+| 24271 |  19   |   Loomis St & Taylor St (*)            |
+| 24271 |  19   |   Loomis St & Taylor St                |
+| 24239 |  40   |   LaSalle St & Adams St                |
+| 24046 |  190  |   Southport Ave & Wrightwood Ave       |
+| 23992 |  22   |   May St & Taylor St                   |
+| 23955 |  226  |   Racine Ave & Belmont Ave             |
+| 23761 |  183  |   Damen Ave & Augusta Blvd             |
+| 23707 |  5    |   State St & Harrison St               |
+| 23659 |  324  |   Stockton Dr & Wrightwood Ave         |
+| 23421 |  307  |   Southport Ave & Clybourn Ave         |
+| 23246 |  89   |   Financial Pl & Congress Pkwy         |
+| 23147 |  107  |   Desplaines St & Jackson Blvd         |
+| 23099 |  338  |   Calumet Ave & 18th St                |
+| 23076 |  158  |   Milwaukee Ave & Wabansia Ave         |
+| 22991 |  145  |   Mies van der Rohe Way & Chestnut St  |
+| 22653 |  312  |   Clarendon Ave & Gordon Ter           |
+| 22474 |  161  |   Rush St & Superior St                |
+| 22435 |  17   |   Honore St & Division St              |
+| 22435 |  17   |   Wood St & Division St                |
+| 22368 |  116  |   Western Ave & Winnebago Ave          |
+| 22157 |  325  |   Clark St & Winnemac Ave              |
+| 22122 |  87   |   Racine Ave & Fullerton Ave           |
+| 21974 |  68   |   Clinton St & Tilden St               |
+| 21681 |  186  |   Ogden Ave & Race Ave                 |
+| 21334 |  249  |   Montrose Harbor                      |
+| 21330 |  88   |   Racine Ave & Randolph St             |
+| 21330 |  88   |   May St & Randolph St                 |
+| 21283 |  350  |   Ashland Ave & Chicago Ave            |
+| 21259 |  46   |   Wells St & Walton St                 |
+| 21212 |  16   |   Paulina  Ave (Wood St) & North Ave   |
+| 21212 |  16   |   Paulina Ave & North Ave              |
+| 21212 |  16   |   Wood St & North Ave                  |
+| 21036 |  423  |   University Ave & 57th St             |
+| 20857 |  364  |   Larrabee St & Oak St                 |
+| 20548 |  96   |   Desplaines St & Randolph St          |
+| 20521 |  282  |   Halsted St & Maxwell St              |
+| 20506 |  172  |   Rush St & Cedar St                   |
+| 20434 |  4    |   Burnham Harbor                       |
+| 20416 |  224  |   Halsted St & Willow St               |
+| 20331 |  7    |   Field Blvd & South Water St          |
+| 20231 |  131  |   Lincoln Ave & Belmont Ave            |
+| 20059 |  317  |   Wood St & Taylor St                  |
+| 19978 |  138  |   Clybourn Ave & Division St           |
+| 19801 |  333  |   Ashland Ave & Blackhawk St           |
+| 19764 |  359  |   Larrabee St & Division St            |
+| 19611 |  288  |   Larrabee St & Armitage Ave           |
+| 19428 |  86   |   Eckhart Park                         |
+| 18542 |  239  |   Western Ave & Leland Ave             |
+| 18496 |  148  |   State St & 33rd St                   |
+| 18486 |  256  |   Broadway & Sheridan Rd               |
+| 18308 |  306  |   Sheridan Rd & Buena Ave              |
+| 18148 |  154  |   Southport Ave & Belmont Ave          |
+| 18089 |  214  |   Damen Ave & Grand Ave                |
+| 18074 |  188  |   Greenview Ave & Fullerton Ave        |
+| 18069 |  165  |   Clark St & Waveland Ave              |
+| 18069 |  165  |   Clark St & Grace St                  |
+| 17978 |  318  |   Southport Ave & Irving Park Rd       |
+| 17793 |  294  |   Broadway & Berwyn Ave                |
+| 17722 |  28   |   Larrabee St & Menomonee St           |
+| 17682 |  237  |   Martin Luther King Dr & 29th St      |
+| 17682 |  237  |   MLK Jr Dr & 29th St                  |
+| 17492 |  341  |   Adler Planetarium                    |
+| 17480 |  261  |   Hermitage Ave & Polk St              |
+| 17420 |  245  |   Clarendon Ave & Junior Ter           |
+| 17380 |  92   |   Carpenter St & Huron St              |
+| 17356 |  459  |   Lakefront Trail & Bryn Mawr Ave      |
+| 17187 |  213  |   Leavitt St & North Ave               |
+| 17043 |  243  |   Lincoln Ave & Leavitt St             |
+| 16832 |  129  |   Blue Island Ave & 18th St            |
+| 16829 |  322  |   Kimbark Ave & 53rd St                |
+| 16692 |  258  |   Logan Blvd & Elston Ave              |
+| 16541 |  45   |   Michigan Ave & Congress Pkwy         |
+| 16400 |  298  |   Lincoln Ave & Belle Plaine Ave       |
+| 16375 |  244  |   Ravenswood Ave & Irving Park Rd      |
+| 16355 |  463  |   Clark St & Berwyn Ave                |
+| 16162 |  6    |   Dusable Harbor                       |
+| 16143 |  32   |   Racine Ave & Congress Pkwy           |
+| 16093 |  30   |   Ashland Ave & Augusta Blvd           |
+| 15970 |  343  |   Racine Ave & Wrightwood Ave          |
+| 15924 |  150  |   Fort Dearborn Dr & 31st St           |
+| 15478 |  242  |   Damen Ave & Leland Ave               |
+| 15397 |  180  |   Ritchie Ct & Banks St                |
+| 15334 |  146  |   Loomis St & Jackson Blvd             |
+| 15150 |  305  |   Western Ave & Division St            |
+| 15018 |  257  |   Lincoln Ave & Waveland Ave           |
+| 15002 |  109  |   900 W Harrison St                    |
+| 15002 |  109  |   900 W Harrison                       |
+| 14950 |  137  |   Morgan Ave & 14th Pl                 |
+| 14938 |  3    |   Shedd Aquarium                       |
+| 14792 |  23   |   Orleans St & Elm St (*)              |
+| 14792 |  23   |   Orleans St & Elm St                  |
+| 14699 |  328  |   Ellis Ave & 58th St                  |
+| 14599 |  55   |   Halsted St & James M Rochford St     |
+| 14599 |  55   |   Halsted St & Roosevelt Rd            |
+| 14439 |  347  |   Ashland Ave & Grace St               |
+| 14383 |  293  |   Broadway & Wilson Ave                |
+| 14296 |  166  |   Ashland Ave & Wrightwood Ave         |
+| 14246 |  97   |   Museum Campus                        |
+| 14246 |  97   |   Field Museum                         |
+| 14241 |  250  |   Ashland Ave & Wellington Ave         |
+| 14126 |  120  |   Wentworth Ave & Archer Ave           |
+| 14007 |  119  |   Ashland Ave & Lake St                |
+| 13973 |  27   |   Larrabee St & North Ave              |
+| 13700 |  326  |   Clark St & Leland Ave                |
+| 13688 |  34   |   Cannon Dr & Fullerton Ave            |
+| 13637 |  238  |   Ravenswood Ave & Montrose Ave (*)    |
+| 13637 |  238  |   Ravenswood Ave & Montrose Ave        |
+| 13508 |  234  |   Clark St & Montrose Ave              |
+| 13448 |  285  |   Wood St & Hubbard St                 |
+| 13448 |  285  |   Wood St & Grand Ave                  |
+| 13391 |  383  |   Ashland Ave & Harrison St            |
+| 13370 |  247  |   Shore Drive & 55th St                |
+| 13370 |  247  |   Shore Dr & 55th St                   |
+| 13254 |  309  |   Leavitt St & Armitage Ave            |
+| 13141 |  295  |   Broadway & Argyle St                 |
+| 13026 |  310  |   Damen Ave & Charleston St            |
+| 13014 |  162  |   Damen Ave & Wellington Ave           |
+| 12971 |  253  |   Clifton Ave & Lawrence Ave           |
+| 12958 |  345  |   Lake Park Ave & 56th St              |
+| 12784 |  290  |   Kedzie Ave & Palmer Ct               |
+| 12688 |  277  |   Ashland Ave & Grand Ave              |
+| 12651 |  15   |   Racine Ave & 19th St                 |
+| 12651 |  15   |   Racine Ave & 18th St                 |
+| 12436 |  420  |   Ellis Ave & 55th St                  |
+| 12402 |  14   |   Morgan St & 18th St                  |
+| 12308 |  319  |   Greenview Ave & Diversey Pkwy        |
+| 12246 |  374  |   Western Ave & Walton St              |
+| 12173 |  308  |   Seeley Ave & Roscoe St               |
+| 11594 |  314  |   Ravenswood Ave & Berteau Ave         |
+| 11528 |  205  |   Paulina St & 18th St                 |
+| 11347 |  414  |   Princeton Ave & China Pl             |
+| 11347 |  414  |   Canal St & Taylor St                 |
+| 10840 |  259  |   California Ave & Francis Pl          |
+| 10809 |  251  |   Clarendon Ave & Leland Ave           |
+| 10775 |  163  |   Paulina St & Diversey Pkwy           |
+| 10775 |  163  |   Damen Ave & Clybourn Ave             |
+| 10773 |  160  |   Campbell Ave & North Ave             |
+| 10743 |  315  |   Elston Ave & Wabansia Ave            |
+| 10743 |  315  |   Leavitt St & Hirsch St               |
+| 10623 |  426  |   Ellis Ave & 60th St                  |
+| 10568 |  228  |   Damen Ave & Melrose Ave              |
+| 10278 |  339  |   Emerald Ave & 31st St                |
+| 10125 |  316  |   Damen Ave & Sunnyside Ave            |
+| 9958  |  417  |   Cornell Ave & Hyde Park B lvd        |
+| 9958  |  417  |   Cornell Ave & Hyde Park Blvd         |
+| 9848  |  169  |   Canal St & Harrison St               |
+| 9841  |  460  |   Clark St & Bryn Mawr Ave             |
+| 9814  |  376  |   Artesian Ave & Hubbard St            |
+| 9715  |  178  |   State St & 19th St                   |
+| 9636  |  458  |   Broadway & Thorndale Ave             |
+| 9554  |  311  |   Lincoln Ave & Eastwood Ave           |
+| 9554  |  311  |   Leavitt St & Lawrence Ave            |
+| 9372  |  272  |   Indiana Ave & 31st St                |
+| 9358  |  149  |   Calumet Ave & 33rd St                |
+| 9289  |  184  |   State St & 35th St                   |
+| 9272  |  454  |   Broadway & Granville Ave             |
+| 9240  |  507  |   Humboldt Blvd & Armitage Ave         |
+| 9071  |  246  |   Ashland Ave & Belle Plaine Ave       |
+| 9065  |  170  |   Clinton St & 18th St                 |
+| 9027  |  122  |   Ogden Ave & Congress Pkwy            |
+| 8922  |  159  |   Claremont Ave & Hirsch St            |
+| 8845  |  276  |   California Ave & North Ave           |
+| 8803  |  464  |   Damen Ave & Foster Ave               |
+| 8765  |  465  |   Marine Dr & Ainslie St               |
+| 8756  |  461  |   Broadway & Ridge Ave                 |
+| 8502  |  323  |   Sheridan Rd & Lawrence Ave           |
+| 8349  |  292  |   Southport Ave & Clark St             |
+| 8310  |  447  |   Glenwood Ave & Morse Ave             |
+| 8289  |  202  |   Halsted St & 18th St                 |
+| 8223  |  42   |   Wabash Ave & Cermak Rd               |
+| 8183  |  248  |   Woodlawn Ave & 55th St               |
+| 8180  |  216  |   California Ave & Division St         |
+| 8120  |  274  |   Racine Ave & 15th St                 |
+| 8072  |  419  |   Lake Park Ave & 53rd St              |
+| 8033  |  206  |   Halsted St & Archer Ave              |
+| 7970  |  493  |   Western Ave & Roscoe St              |
+| 7970  |  493  |   Oakley Ave & Roscoe St               |
+| 7900  |  394  |   Clark St & 9th St (AMLI)             |
+| 7879  |  418  |   Ellis Ave & 53rd St                  |
+| 7666  |  330  |   Lincoln Ave & Addison St             |
+| 7657  |  222  |   Milwaukee Ave & Rockwell St          |
+| 7612  |  103  |   Clinton St & Polk St (*)             |
+| 7612  |  103  |   Clinton St & Polk St                 |
+| 7591  |  511  |   Albany Ave & Bloomingdale Ave        |
+| 7543  |  236  |   Sedgwick St & Schiller St            |
+| 7454  |  504  |   Campbell Ave & Fullerton Ave         |
+| 7357  |  370  |   Calumet Ave & 21st St                |
+| 7231  |  478  |   Rockwell St & Eastwood Ave           |
+| 7224  |  62   |   McCormick Place                      |
+| 7166  |  451  |   Sheridan Rd & Loyola Ave             |
+| 7091  |  2    |   Michigan Ave & Balbo Ave             |
+| 7091  |  2    |   Buckingham Fountain                  |
+| 6915  |  506  |   Spaulding Ave & Armitage Ave         |
+| 6814  |  185  |   Stave St & Armitage Ave              |
+| 6792  |  297  |   Paulina St & Montrose Ave            |
+| 6541  |  596  |   Benson Ave & Church St               |
+| 6500  |  280  |   Morgan St & 31st St                  |
+| 6223  |  501  |   Richmond St & Diversey Ave           |
+| 6127  |  432  |   Clark St & Lunt Ave                  |
+| 5886  |  482  |   Campbell Ave & Montrose Ave          |
+| 5784  |  503  |   Drake Ave & Fullerton Ave            |
+| 5784  |  207  |   Emerald Ave & 28th St                |
+| 5762  |  263  |   Rhodes Ave & 32nd St                 |
+| 5760  |  275  |   Ashland Ave & 13th St                |
+| 5634  |  502  |   California Ave & Altgeld St          |
+| 5572  |  462  |   Ravenswood Ave & Balmoral Ave        |
+| 5529  |  215  |   Damen Ave & Madison St               |
+| 5407  |  457  |   Clark St & Elmdale Ave               |
+| 5382  |  147  |   Indiana Ave & 26th St                |
+| 5373  |  121  |   Blackstone Ave & Hyde Park Blvd      |
+| 5309  |  505  |   Winchester Ave & Elston Ave          |
+| 5265  |  365  |   Halsted St & North Branch St         |
+| 5250  |  124  |   Damen Ave & Cullerton St             |
+| 5131  |  279  |   Halsted St & 35th St (*)             |
+| 5131  |  279  |   Halsted St & 35th St                 |
+| 5063  |  486  |   Oakley Ave & Irving Park Rd          |
+| 4926  |  491  |   Talman Ave & Addison St              |
+| 4868  |  132  |   Wentworth Ave & 24th St              |
+| 4812  |  402  |   Princeton Ave & 31st St              |
+| 4812  |  402  |   Shields Ave & 31st St                |
+| 4804  |  434  |   Ogden Ave & Roosevelt Rd             |
+| 4747  |  403  |   Wentworth Ave & 33rd St              |
+| 4694  |  490  |   Troy St & Elston Ave                 |
+| 4557  |  267  |   Lake Park Ave & 47th St              |
+| 4523  |  492  |   Leavitt St & Addison St              |
+| 4466  |  135  |   Halsted St & 21st St                 |
+| 4258  |  278  |   Wallace Ave & 35th St                |
+| 4258  |  278  |   Wallace St & 35th St                 |
+| 4238  |  497  |   Kimball Ave & Belmont Ave            |
+| 4238  |  204  |   Prairie Ave & Garfield Blvd          |
+| 4232  |  471  |   Francisco Ave & Foster Ave           |
+| 4205  |  620  |   Orleans St & Chestnut St (NEXT Apts) |
+| 4108  |  171  |   May St & Cullerton St                |
+| 4021  |  509  |   Troy St & North Ave                  |
+| 3966  |  604  |   Sheridan Rd & Noyes St (NU)          |
+| 3963  |  449  |   Clark St & Columbia Ave              |
+| 3935  |  382  |   Western Ave & Congress Pkwy          |
+| 3851  |  499  |   Kosciuszko Park                      |
+| 3793  |  203  |   Western Ave & 21st St                |
+| 3790  |  453  |   Clark St & Schreiber Ave             |
+| 3732  |  498  |   California Ave & Fletcher St         |
+| 3720  |  209  |   Normal Ave & Archer Ave              |
+| 3695  |  472  |   Lincoln Ave & Winona St              |
+| 3675  |  475  |   Washtenaw Ave & Lawrence Ave         |
+| 3633  |  474  |   Christiana Ave & Lawrence Ave        |
+| 3602  |  208  |   Ashland Ave & 21st St                |
+| 3565  |  252  |   Greenwood Ave & 47th St              |
+| 3524  |  605  |   University Library (NU)              |
+| 3513  |  425  |   Harper Ave & 59th St                 |
+| 3423  |  597  |   Chicago Ave & Washington St          |
+| 3374  |  354  |   Sheridan Rd & Greenleaf Ave          |
+| 3277  |  520  |   Greenview Ave & Jarvis Ave           |
+| 3276  |  372  |   Humboldt Dr & Luis Munoz Marin Dr    |
+| 3276  |  372  |   California Ave & Augusta Blvd        |
+| 3176  |  477  |   Manor Ave & Leland Ave               |
+| 3031  |  218  |   Wells St & 19th St                   |
+| 2995  |  484  |   Monticello Ave & Irving Park Rd      |
+| 2972  |  479  |   Drake Ave & Montrose Ave             |
+| 2965  |  136  |   Racine Ave & 13th St                 |
+| 2945  |  481  |   California Ave & Montrose Ave        |
+| 2945  |  401  |   Shields Ave & 28th Pl                |
+| 2904  |  487  |   California Ave & Byron St            |
+| 2886  |  381  |   Western Ave & Monroe St              |
+| 2862  |  480  |   Albany (Kedzie) Ave & Montrose Ave   |
+| 2862  |  480  |   Kedzie Ave & Montrose Ave            |
+| 2862  |  480  |   Albany Ave & Montrose Ave            |
+| 2807  |  623  |   Michigan Ave & 8th St                |
+| 2797  |  489  |   Drake Ave & Addison St               |
+| 2733  |  515  |   Paulina St & Howard St               |
+| 2730  |  335  |   Calumet Ave & 35th St                |
+| 2724  |  424  |   Museum of Science and Industry       |
+| 2701  |  485  |   Sawyer Ave & Irving Park Rd          |
+| 2695  |  476  |   Kedzie Ave & Leland Ave              |
+| 2647  |  603  |   Chicago Ave & Sheridan Rd            |
+| 2598  |  348  |   California Ave & 21st St             |
+| 2577  |  496  |   Avers Ave & Belmont Ave              |
+| 2565  |  336  |   Cottage Grove Ave & 47th St          |
+| 2526  |  483  |   Avondale Ave & Irving Park Rd        |
+| 2526  |  483  |   Keeler Ave & Irving Park Rd          |
+| 2517  |  523  |   Eastlake Ter & Rogers Ave            |
+| 2283  |  500  |   Central Park Ave & Elbridge Ave      |
+| 2245  |  377  |   Kedzie Ave & Lake St                 |
+| 2233  |  469  |   St. Louis Ave & Balmoral Ave         |
+| 2190  |  366  |   Loomis St & Archer Ave               |
+| 2097  |  265  |   Cottage Grove Ave & Oakwood Blvd     |
+| 2052  |  413  |   Woodlawn Ave & Lake Park Ave         |
+| 2000  |  622  |   California Ave & Cortez St           |
+| 1963  |  405  |   Wentworth Ave & 35th St              |
+| 1937  |  510  |   Spaulding Ave & Division St          |
+| 1908  |  467  |   Western Ave & Lunt Ave               |
+| 1885  |  367  |   Racine Ave & 35th St                 |
+| 1884  |  470  |   Kedzie Ave & Foster Ave              |
+| 1716  |  610  |   Marion St & South Blvd               |
+| 1703  |  262  |   Halsted St & 37th St                 |
+| 1677  |  416  |   Dorchester Ave & 49th St             |
+| 1610  |  378  |   California Ave & Lake St             |
+| 1558  |  508  |   Central Park Ave & North Ave         |
+| 1555  |  373  |   Kedzie Ave & Chicago Ave             |
+| 1550  |  452  |   Western Ave & Granville Ave          |
+| 1548  |  406  |   Lake Park Ave & 35th St              |
+| 1530  |  179  |   Martin Luther King Dr & Oakwood Blvd |
+| 1530  |  179  |   MLK Jr Dr & Oakwood Blvd             |
+| 1518  |  468  |   Budlong Woods Library                |
+| 1507  |  9    |   Leavitt St & Archer Ave              |
+| 1493  |  422  |   DuSable Museum                       |
+| 1476  |  601  |   Central St Metra                     |
+| 1467  |  351  |   Cottage Grove Ave & 51st St          |
+| 1457  |  437  |   Washtenaw Ave & 15th St (*)          |
+| 1457  |  437  |   Washtenaw Ave & Ogden Ave (*)        |
+| 1457  |  437  |   Washtenaw Ave & 15th St              |
+| 1450  |  442  |   California Ave & 23rd Pl             |
+| 1439  |  193  |   State St & 29th St                   |
+| 1431  |  494  |   Kedzie Ave & Bryn Mawr Ave           |
+| 1414  |  281  |   Western Ave & 24th St                |
+| 1404  |  495  |   Keystone Ave & Montrose Ave          |
+| 1396  |  271  |   Cottage Grove Ave & 43rd St          |
+| 1370  |  427  |   Cottage Grove Ave & 63rd St          |
+| 1303  |  624  |   Dearborn St & Van Buren St (*)       |
+| 1267  |  455  |   Maplewood Ave & Peterson Ave         |
+| 1249  |  167  |   Damen Ave & Coulter St               |
+| 1226  |  12   |   South Shore Dr & 71st St             |
+| 1223  |  602  |   Central St & Girard Ave              |
+| 1209  |  436  |   California Ave & Roosevelt Rd        |
+| 1209  |  436  |   Fairfield Ave & Roosevelt Rd         |
+| 1170  |  600  |   Dodge Ave & Church St                |
+| 1168  |  456  |   2112 W Peterson Ave                  |
+| 1145  |  619  |   Keystone Ave & Fullerton Ave         |
+| 1134  |  517  |   Clark St & Jarvis Ave                |
+| 1119  |  466  |   Ridge Blvd & Touhy Ave               |
+| 1100  |  450  |   Warren Park West                     |
+| 1097  |  435  |   Kedzie Ave & Roosevelt Rd            |
+| 1069  |  353  |   Clark St & Touhy Ave                 |
+| 1035  |  611  |   Oak Park Ave & South Blvd            |
+| 1026  |  613  |   Wisconsin Ave & Madison St           |
+| 1019  |  101  |   63rd St Beach                        |
+| 1015  |  428  |   Dorchester Ave & 63rd St             |
+| 1005  |  522  |   Bosworth Ave & Howard St             |
+| 991   |  448  |   Warren Park East                     |
+| 987   |  415  |   Calumet Ave & 51st St                |
+| 971   |  201  |   Indiana Ave & 40th St                |
+| 967   |  200  |   MLK Jr Dr & 47th St                  |
+| 967   |  200  |   King Dr & 47th St                    |
+| 966   |  355  |   South Shore Dr & 67th St             |
+| 944   |  606  |   Forest Ave & Chicago Ave             |
+| 905   |  368  |   Ashland Ave & Archer Ave             |
+| 899   |  399  |   South Shore Dr & 74th St             |
+| 898   |  609  |   Forest Ave & Lake St                 |
+| 881   |  411  |   Halsted St & 47th Pl                 |
+| 881   |  352  |   Jeffery Blvd & 67th St               |
+| 875   |  525  |   Glenwood Ave & Touhy Ave             |
+| 827   |  488  |   Pulaski Rd & Eddy St                 |
+| 827   |  488  |   Pulaksi Rd & Eddy St                 |
+| 810   |  612  |   Ridgeland Ave & Lake St              |
+| 806   |  598  |   Elmwood Ave & Austin St              |
+| 802   |  369  |   Wood St & 35th St                    |
+| 800   |  375  |   Sacramento Blvd & Franklin Blvd      |
+| 799   |  410  |   Prairie Ave & 43rd St                |
+| 781   |  607  |   Cuyler Ave & Augusta St              |
+| 768   |  614  |   East Ave & Madison St                |
+| 767   |  514  |   Ridge Blvd & Howard St               |
+| 736   |  518  |   Conservatory Dr & Lake St            |
+| 713   |  590  |   Kilbourn Ave & Irving Park Rd        |
+| 691   |  102  |   Stony Island Ave & 67th St           |
+| 690   |  615  |   Lombard Ave & Madison St             |
+| 665   |  616  |   Oak Park Ave & Harrison St           |
+| 647   |  95   |   Stony Island Ave & 64th St           |
+| 613   |  443  |   Millard Ave & 26th St                |
+| 606   |  591  |   Kilbourn Ave & Milwaukee Ave         |
+| 594   |  526  |   Oakley Ave & Touhy Ave               |
+| 589   |  385  |   Princeton Ave & Garfield Blvd        |
+| 570   |  617  |   East Ave & Garfield St               |
+| 567   |  625  |   Chicago Ave & Dempster St            |
+| 545   |  527  |   Western Ave & Howard St              |
+| 526   |  439  |   Kedzie Ave & 21st St                 |
+| 504   |  446  |   Western Ave & 28th St                |
+| 487   |  11   |   Jeffery Blvd & 71st St               |
+| 476   |  356  |   Stony Island Ave & 71st St           |
+| 472   |  618  |   Lombard Ave & Garfield St            |
+| 470   |  599  |   Valli Produce - Evanston Plaza       |
+| 469   |  429  |   Cottage Grove Ave & 67th St          |
+| 456   |  589  |   Milwaukee Ave & Cuyler Ave           |
+| 440   |  592  |   Knox Ave & Montrose Ave              |
+| 431   |  445  |   California Ave & 26th St             |
+| 430   |  519  |   Wolcott Ave & Fargo Ave              |
+| 414   |  397  |   Saginaw Ave & Exchange Ave           |
+| 401   |  433  |   Kedzie Ave & Harrison St             |
+| 399   |  438  |   Central Park Ave & Ogden Ave         |
+| 387   |  408  |   Union Ave & Root St                  |
+| 387   |  408  |   Union Ave & 42nd St                  |
+| 382   |  270  |   Stony Island Ave & 75th St           |
+| 373   |  444  |   Albany Ave & 26th St                 |
+| 372   |  441  |   Kedzie Ave & 24th St                 |
+| 355   |  412  |   Princeton Ave & 47th St              |
+| 326   |  570  |   Evans Ave & 75th St                  |
+| 317   |  547  |   Ashland Ave & Pershing Rd            |
+| 314   |  388  |   Halsted St & 63rd St                 |
+| 309   |  421  |   MLK Jr Dr & 56th St (*)              |
+| 309   |  421  |   MLK Jr Dr & 56th St                  |
+| 306   |  400  |   Cottage Grove Ave & 71st St          |
+| 295   |  431  |   Eberhart Ave & 61st St               |
+| 280   |  573  |   State St & 79th St                   |
+| 278   |  532  |   Austin Blvd & Lake St                |
+| 272   |  528  |   Pulaski Rd & Lake St                 |
+| 267   |  430  |   MLK Jr Dr & 63rd St                  |
+| 242   |  524  |   Austin Blvd & Chicago Ave            |
+| 224   |  552  |   Ashland Ave & McDowell Ave           |
+| 220   |  390  |   Wentworth Ave & 63rd St              |
+| 207   |  585  |   Cottage Grove Ave & 83rd St          |
+| 195   |  554  |   Damen Ave & 51st St                  |
+| 193   |  396  |   Yates Blvd & 75th St                 |
+| 192   |  551  |   Hoyne Ave & 47th St                  |
+| 184   |  534  |   Pulaski Rd & Madison St              |
+| 183   |  535  |   Pulaski Rd & Congress Pkwy           |
+| 178   |  580  |   Exchange Ave & 79th St               |
+| 177   |  395  |   Jeffery Blvd & 76th St               |
+| 175   |  594  |   Western Blvd & 48th Pl               |
+| 170   |  575  |   Cottage Grove Ave & 78th St          |
+| 168   |  386  |   Halsted St & 56th St                 |
+| 166   |  407  |   State St & Pershing Rd               |
+| 162   |  543  |   Laramie Ave & Gladys Ave             |
+| 153   |  545  |   Kostner Ave & Adams St               |
+| 152   |  392  |   Perry Ave & 69th St                  |
+| 151   |  398  |   Rainbow Beach                        |
+| 148   |  572  |   State St & 76th St                   |
+| 147   |  546  |   Damen Ave & Pershing Rd              |
+| 146   |  533  |   Central Park Blvd & 5th Ave          |
+| 143   |  571  |   Vernon Ave & 75th St                 |
+| 142   |  544  |   Austin Blvd & Madison St             |
+| 142   |  544  |   Mason Ave & Madison St               |
+| 134   |  409  |   Shields Ave & 43rd St                |
+| 134   |  542  |   Central Ave & Madison St             |
+| 128   |  608  |   Humphrey Ave & Ontario St            |
+| 122   |  574  |   Eberhart (Vernon) Ave & 79th St      |
+| 122   |  574  |   Vernon Ave & 79th St                 |
+| 112   |  530  |   Laramie Ave & Kinzie St              |
+| 107   |  391  |   Halsted St & 69th St                 |
+| 104   |  577  |   Stony Island Ave & South Chicago Ave |
+| 99    |  576  |   Greenwood Ave & 79th St              |
+| 93    |  579  |   Phillips Ave & 79th St               |
+| 84    |  531  |   Central Ave & Lake St                |
+| 81    |  578  |   Bennett Ave & 79th St                |
+| 81    |  578  |   Chappel Ave & 79th St                |
+| 80    |  536  |   Kostner Ave & Lake St                |
+| 78    |  553  |   Elizabeth St & 47th St               |
+| 78    |  540  |   Laramie Ave & Madison St             |
+| 75    |  393  |   Calumet Ave & 71st St                |
+| 74    |  529  |   Cicero Ave & Lake St                 |
+| 67    |  440  |   Lawndale Ave & 23rd St               |
+| 66    |  541  |   Central Ave & Harrison St            |
+| 64    |  583  |   Stony Island Ave & 82nd St           |
+| 64    |  550  |   Central Ave & Chicago Ave            |
+| 63    |  384  |   Halsted St & 51st St                 |
+| 63    |  563  |   Ashland Ave & 63rd St                |
+| 60    |  555  |   Ashland Ave & 50th St                |
+| 56    |  539  |   Cicero Ave & Quincy St               |
+| 54    |  587  |   Wabash Ave & 83rd St                 |
+| 52    |  595  |   Wabash Ave & 87th St                 |
+| 48    |  564  |   Racine Ave & 65th St                 |
+| 43    |  560  |   Marshfield Ave & 59th St             |
+| 43    |  537  |   Kenton Ave & Madison St              |
+| 39    |  586  |   MLK Jr Dr & 83rd St                  |
+| 38    |  548  |   Morgan St & Pershing Rd              |
+| 30    |  549  |   Marshfield Ave & 44th St             |
+| 27    |  559  |   Racine Ave & Garfield Blvd           |
+| 25    |  626  |   Delano Ct & Roosevelt Rd             |
+| 25    |  566  |   Ashland Ave & 69th St                |
+| 24    |  556  |   Throop St & 52nd St                  |
+| 23    |  593  |   Halsted St & 59th St                 |
+| 23    |  561  |   Damen Ave & 61st St                  |
+| 23    |  561  |   Damen Ave & 59th St                  |
+| 21    |  569  |   Woodlawn Ave & 75th St               |
+| 20    |  538  |   Cicero Ave & Flournoy St             |
+| 18    |  588  |   South Chicago Ave & 83rd St          |
+| 18    |  568  |   Normal Ave & 72nd St                 |
+| 17    |  584  |   Ellis Ave & 83rd St                  |
+| 11    |  567  |   May St & 69th St                     |
+| 9     |  558  |   Ashland Ave & Garfield Blvd          |
+| 6     |  581  |   Commercial Ave & 83rd St             |
+| 4     |  582  |   Phillips Ave & 82nd St               |
+| 4     |  565  |   Ashland Ave & 66th St                |
+| 4     |  562  |   Racine Ave & 61st St                 |
+| 4     |  557  |   Seeley Ave & Garfield Blvd           |
 
+## time_avg
+| wo | lo | lo | lo |
+|----- | ------------|---------------------|---------|------|
+| 0    |     1476647 | 11.27860692727057   |    60.0 |   2.0 |
+| 3    |     1530674 | 11.116413292445047  |    60.0 |   2.0 |
+| 6    |     921253  | 12.52835625320444   |    60.0 |   2.0 |
+| 1    |     1590726 | 11.188688382956377  |    60.0 |   2.0 |
+| 4    |     1458457 | 11.203099062913727  |    60.0 |   2.0 |
+| 2    |     1538038 | 11.084938646942854  |    60.0 |   2.0 |
+| 5    |     979440  | 12.550332945356523  |    60.0 |   2.0 |
+
+
+
+
+## /uhadoop2020/group12/bici/temperature
+
+| wo | lo | lo | lo | lo | lo |
+|------|----------|-----------------------|-----------------------|------------------------|----------------------|
+| 35   |   1097   | 12.129428745062283    |  55.733333333333334   |   2.033333333333333   |    7.1010913204944766 |
+| 33   |   10548  | 11.553594678296063    |  58.666666666666664   |   2.0  |   7.329827556190252                  |
+| 32   |   78379  | 12.399328263948252    |  59.8  |  2.0  |   7.726834737030384                                  |
+| 31   |   112700 | 12.41865069506064     |  59.983333333333334   |   2.0   |  7.717876214718924                  |
+| 30   |   177195 | 12.423525776686706    |  60.0  |  2.0  |   7.7394858831673865                                 |
+| 28   |   274339 | 12.39655055727891     |  60.0  |  2.0  |   7.617862668902885                                  |
+| 27   |   581612 | 12.524424100603145    |  60.0  |  2.0  |   7.713351160121586                                  |
+| 26   |   499819 | 12.388996016557995    |  59.983333333333334   |   2.0  |   7.64328481401967                   |
+| 25   |   552495 | 12.420796326965288    |  60.0  |  2.0  |   7.654989233710116                                  |
+| 23   |   536334 | 12.417094105538734    |  60.0  |  2.0  |   7.666427714844613                                  |
+| 22   |   809160 | 12.07995211083097     |  60.0  |  2.0  |   7.4647433567961405                                 |
+| 21   |   536335 | 12.005515924437772    |  59.983333333333334  |    2.0  |   7.390127977800141                  |
+| 20   |   494804 | 11.854457320474376    |  59.983333333333334  |    2.0  |   7.341916096162502                  |
+| 18   |   437313 | 11.735306786367373    |  59.983333333333334  |    2.0  |   7.264367672188968                  |
+| 17   |   564830 | 11.576013815366261    |  60.0  |  2.0  |   7.175349345552429                                  |
+| 16   |   308001 | 11.317303731697852    |  59.93333333333333   |    2.0   |  7.069804473229763                  |
+| 15   |   309275 | 11.147928919785532    |  59.93333333333333   |    2.0   |  6.9501776244257245                 |
+| 13   |   278422 | 11.079242181532589    |  60.0  |  2.0 |    6.934726721593248                                  |
+| 12   |   359811 | 10.892550070268358    |  59.96666666666667   |    2.0  |   6.857681109393498                  |
+| 11   |   236780 | 10.759774122251317    |  59.983333333333334  |    2.0  |   6.774098758335601                  |
+| 10   |   239676 | 10.566060709735925    |  59.88333333333333   |    2.0  |   6.67275026529244                   |
+| 8    |   233370 | 10.487215080487347    |  59.766666666666666  |    2.0  |   6.571698253208454                  |
+| 7    |   319107 | 10.296442781470361    |  60.0 |   2.0   |  6.512438443591053                                  |
+| 6    |   191334 | 10.122953839882086    |  59.88333333333333  |     2.0   |  6.391780343216631                  |
+| 5    |   152138 | 10.009574750117231    |  60.0  |  2.0   |  6.356918877308863                                  |
+| 3    |   174131 | 9.952742188352428     |  59.86666666666667   |    2.0    | 6.32054972430903                   |
+| 2    |   217647 | 9.849532959333219     |  59.65  | 2.0  |   6.25039945049258                                   |
+| 1    |   130565 | 9.7871130599063 | 60.0  |  2.0  |   6.182382458155307                                          |
+| 0    |   200248 | 9.679025591599746     |  59.733333333333334  |    2.0   |  6.137942857530878                  |
+| -1   |   92206  | 9.572777078859634     |  59.03333333333333   |    2.0   |  6.030971361346944                  |
+| -2   |   109997 | 9.493176935128503     |  59.93333333333333   |    2.0   |  5.974220778329864                  |
+| -3   |   53201  | 9.545225027098482     |  59.28333333333333   |    2.0   |  5.99676151848632                   |
+| -5   |   40390  | 9.573830568622597     |  59.13333333333333   |    2.0   |  5.992625578219034                  |
+| -6   |   34129  | 9.5517170148554        |  59.983333333333334 |     2.0  |   5.992441278814857                          |
+| -7   |   47326  | 9.335223414895262     |  57.583333333333336  |    2.0   |  5.831104002884496                  |
+| -8   |   22279  | 9.451856007899822     |  59.833333333333336  |    2.0   |  5.933369627218996                  |
+| -10  |   18450  | 9.485622402890685     |  59.15  | 2.0 |    5.977168333177475                                  |
+| -11  |   12120  | 9.43367574257425      |  58.96666666666667   |    2.0   |  5.973761810802765                  |
+| -12  |   14850  | 9.4144455667789 | 58.18333333333333  |     2.0  |   5.907992883232718                          |
+| -13  |   8164   | 8.997509390821495     |  55.4  |  2.0   |  5.642229178121544                                  |
+| -15  |   8986   | 9.290715186586532     |  59.7  |  2.0   |  5.7636937464289595                                 |
+| -16  |   6424   | 9.084166147779165     |  59.0  |  2.0   |  5.70706705688317                                   |
+| -17  |   5630   | 9.297856719952632     |  50.15 |  2.0   |  5.7742413673575825                                 |
+| -18  |   2310   | 9.301724386724384     |  51.083333333333336   |   2.0  |   5.36163729099509                   |
+| -20  |   523    | 8.583875079668577     |  37.65  | 2.1   |  5.4127337523187515                                 |
+| -21  |   594    | 9.663608305274973     |  59.333333333333336   |   2.1 |    6.424326323483112                  |
+| -22  |   160    | 9.111145833333333     |  28.483333333333334   |   2.0 |    5.199026222156067                  |
+| -23  |   30     | 12.05  | 32.35  | 3.2666666666666666   |   7.839815232155832                                  |
+| -26  |   1      | 6.55   | 6.55  |  6.55  |  0.0                                                                |
+
+
+
+## /uhadoop2020/group12/bici/clima
+
+| Clima | lo | lo | lo |lo |
+|--------|----------|---------------------|----------|----------------------------|
+| cloudy | 8398501 | 11.524716329338618  |    60.0  |  2.0                         |
+| clear  | 511819 | 11.364204500679612   |   59.983333333333334   |   2.0         |
+| rain or snow  |  432077 | 10.170539818905745   |   59.983333333333334   |   2.0 |
+| not clear     |  88159 |  10.908922515001306    |  59.9  |  2.0             |
+| tstorms | 64143 |  11.250996991098015   |   60.0  |  2.0                         |
+| unknown | 536   |  11.26169154228856   |    56.4  |  2.033333333333333           |
