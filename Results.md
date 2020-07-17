@@ -431,7 +431,7 @@
 
 ## cantidad_viajes_por_hora_comparacion
 
-| wo | lo | lo | lo | lo |
+| Hora del día | Cantidad viajes Hombre | Tiempo promedio Hombre | Cantidad viajes Mujer | Tiempo promedio Mujer |
 |-------|---------|---------------------|-----------|--------------------|
 | 0     |  51627  | 10.71549350791898   |    10044  | 11.864960838975174 |
 | 1     |  31517  | 10.668659242102152  |    5149   | 11.455389395999223 |
@@ -1231,7 +1231,7 @@
 | 9###2   | 9.23035833148436   |
 
 ## from_total_traffic
-| wo | lo | lo |
+| Total retiro | station_id | name_station |
 |--------|--------|--------------------------------------|
 | 164669 | 91     | Clinton St & Washington Blvd         |
 | 140197 | 192    | Canal St & Adams St                  |
