@@ -45,7 +45,36 @@ En segundo lugar, se utilizó también el operador JOIN, para unir dos conjuntos
 
 # Resultados
 
-Detail the results of the project. Different projects will have different types of results; e.g., run-times or result sizes, evaluation of the methods you're comparing, the interface of the system you've built, and/or some of the results of the data analysis you conducted.
+A continuación se presentarán algunos de los resultados obtenidos. Los resultados mas extensos se pueden encontrar en el archivo [Results.md](https://github.com/cc5212/2020-Chicago-Bikes/blob/master/Results.md) ubicado en la carpeta del mismo proyecto.
+## Análisis de viajes por clima
+<p align="center">
+  <img src="images/porclima1.png" width="450"> 
+  <img src="images/porclima2.png" width="450">
+</p>
+
+## Análisis de viajes por día
+<p align="center">
+  <img src="images/pordia1.png" width="450">
+  <img src="images/pordia2.png" width="450">
+</p>
+
+## Análisis de viajes por temperatura
+<p align="center">
+  <img src="images/temp1.png" width="450">
+  <img src="images/temp2.png" width="450">
+</p>
+
+## Comparación viajes Hombres v/s Mujeres
+<p align="center">
+  <img src="images/hombrevsmujer1.png" width="450">
+  <img src="images/hombrevsmujer2.png" width="450">
+</p>
+
+## Comparación viajes Día hábil de la semana v/s Fin de semana
+<p align="center">
+  <img src="images/semanavsfinde.png" width="450">
+</p>
+
 
 # Conclusión
 Entre los beneficios del lenguaje utilizado, corresponde a una sintaxis que facilitó la creación de consultas debido a sus operadores con nombres explícitos que justamente realizaban una función específica que se necesitaba, y no se tenía que recurrir a herramientas o funciones más complejas. 
