@@ -20,7 +20,7 @@ raw_group_per_hour_fin_de_semana = ORDER raw_group_per_hour_fin_de_semana BY $0 
 -- join por hora dia habil vs fin de semana
 hora_dia_habil_vs_fin_de_semana = JOIN  raw_group_per_hour_dia_habil BY $0 , raw_group_per_hour_fin_de_semana BY $0 ;
 --hora, count_diahabil, avg_diahabil, count_finde, avg_finde
-hora_dia_habil_vs_fin_de_semana = FOREACH hora_dia_habil_vs_fin_de_semana GENERATE (int)$0 , (int)$1/5 , $2 , (int) $4/5, $5;
+hora_dia_habil_vs_fin_de_semana = FOREACH hora_dia_habil_vs_fin_de_semana GENERATE (int)$0 , (int)$1/5 , $2 , (int) $4/2, $5;
 --hora, count_diahabil, avg_diahabil, count_finde, avg_finde
 hora_dia_habil_vs_fin_de_semana = ORDER hora_dia_habil_vs_fin_de_semana BY $0 ;
 
