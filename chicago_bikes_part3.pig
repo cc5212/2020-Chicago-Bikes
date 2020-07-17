@@ -115,7 +115,7 @@ STORE id_day_hour_count INTO '/uhadoop2020/group12/bici/day_hour_count';
 STORE id_day_hour_avg INTO '/uhadoop2020/group12/bici/day_hour_avg';
 
 -- Agrupado por temperatura 
--- temperature,count,avg,stdev,max,min
+-- temperature,count,avg,max,min,stdev
 STORE temperature_count_avg_stdev INTO '/uhadoop2020/group12/bici/temperature';
 -- clima
 -- clima, cantidad, promedio de tiempo, maximo, minimo
