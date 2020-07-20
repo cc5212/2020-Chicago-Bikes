@@ -372,7 +372,7 @@
 
 ## bici/hora_dia_habil_vs_fin_de_semana
 
-| Hora | lo | lo|
+| Hora | cantidad dia de semana | cantidad fin de semana|
 |-------|---------|-------|
 | 0     |  6541   | 14482 |
 | 1     |  3236   | 10242 |
